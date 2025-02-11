@@ -18,7 +18,8 @@ const Navbar = () => {
 
           <NavItem  text="Contact Us" />
           <NavItem text="About Us" />
-          <NavItem  text="Get in Touch" />
+          <NavItem  text="Portfolio" />
+          <NavItem  text="Services" />
         </ul>
 
         {/* Mobile Menu Button */}

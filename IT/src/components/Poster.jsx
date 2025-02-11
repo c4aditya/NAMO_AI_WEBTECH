@@ -1,6 +1,8 @@
 import "./poster.css";
 import Slides from "./SliderData";
 import Lottie from "lottie-react";
+import { MdKeyboardArrowRight } from "react-icons/md";
+import { MdKeyboardArrowLeft } from "react-icons/md";
 import { useState, useEffect } from "react";
 import { TfiArrowCircleLeft, TfiArrowCircleRight } from "react-icons/tfi";
 import { BiRightTopArrowCircle } from "react-icons/bi";
@@ -13,7 +15,7 @@ function Poster() {
         setTimeout(() => {
             setCurrentIndex((prevIndex) => (prevIndex === 0 ? Slides.length - 1 : prevIndex - 1));
             setAnimate(true);
-        }, 50); 
+        }, 50);
     }
 
     function increment() {
@@ -34,36 +36,36 @@ function Poster() {
 
     return (
         <>
-       
-        <div className="posters">
-            
-            <div className="poster">
-                <div className="decrement" onClick={decrement}>
-                    <h1><TfiArrowCircleLeft /></h1>
-                </div>
-                <div className="title-image">
-                    <div className={`title ${animate ? "animate" : ""}`}>
-                        <h1>{Slides[currentIndex].title}</h1>
-                        <p>{Slides[currentIndex].description}</p>
-                        <button className="btn">Get In Touch 
-                        <div className="movingarrow">
-                            <BiRightTopArrowCircle/>
+
+            <div className="posters">
+
+                <div className="poster">
+                    <div className="decrement" onClick={decrement}>
+                        <h1>< MdKeyboardArrowLeft/></h1>
+                    </div>
+                    <div className="title-image">
+                        <div className={`title ${animate ? "animate" : ""}`}>
+                            <h1>{Slides[currentIndex].title}</h1>
+                            <p>{Slides[currentIndex].description}</p>
+                            <button className="btn">Get In Touch
+                                <div className="movingarrow">
+                                    <BiRightTopArrowCircle />
+                                </div>
+                            </button>
+
                         </div>
-                             </button>
-                       
+                        <div className="animation">
+                            <Lottie animationData={Slides[currentIndex].animation} loop={true} />
+                        </div>
                     </div>
-                    <div className="animation">
-                        <Lottie animationData={Slides[currentIndex].animation} loop={true} />
+                    <div className="increment" onClick={increment}>
+                        <h1><MdKeyboardArrowRight/></h1>
                     </div>
-                </div>
-                <div className="increment" onClick={increment}>
-                    <h1><TfiArrowCircleRight /></h1>
                 </div>
             </div>
-        </div>
         </>
     );
-   
+
 }
 
 export default Poster;

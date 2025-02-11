@@ -1,5 +1,8 @@
 import Navbar from "./components/Navbar"
 import Poster from "./components/Poster"
+import Specility from "./components/Specility"
+import Ourservices from "./components/Ourservices"
+
 
 function App() {
  
@@ -7,9 +10,12 @@ function App() {
   return (
     <>
     <div className='h'>
-     <Navbar/>
-     
+     <Navbar/>     
       <Poster/>
+      <Specility/> 
+      <Ourservices/>
+
+
     </div>
     </>
   

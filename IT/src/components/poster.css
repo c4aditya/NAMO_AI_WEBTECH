@@ -138,8 +138,7 @@
 
 .btn:hover{
     .movingarrow svg{
-        background-color:#FF3F86;
-      
+        /* background-color:#FF3F86; */     
         border-radius: 100%;
     }
 }
