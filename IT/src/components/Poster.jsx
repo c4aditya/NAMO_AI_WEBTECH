@@ -1,4 +1,4 @@
-import "./poster.css";
+
 import Slides from "./SliderData";
 import Lottie from "lottie-react";
 import { MdKeyboardArrowRight } from "react-icons/md";

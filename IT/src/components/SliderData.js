@@ -2,6 +2,8 @@ import webdeveloper from "../animations/cd.json";
 import webdev from "../animations/webdeveloper.json";
 import mob from "../animations/mob.json";
 
+
+
 const SliderData = [
   {
     id: 1,
@@ -18,7 +20,7 @@ const SliderData = [
   {
     id: 3,
     title: "AI-Powered Integrations",
-    description: "Enhance your applications with AI-driven solutions, leveraging machine learning, NLP, and automation to streamline operations.",
+    description: "Seamlessly integrate AI-driven solutions into your applications, harnessing the power of machine learning, and automation. Optimize workflows, enhance decision-making, and drive innovation with intelligent systems .",
     animation: webdeveloper,
   },
 ];

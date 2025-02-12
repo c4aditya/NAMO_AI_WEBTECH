@@ -1,7 +1,8 @@
 import Navbar from "./components/Navbar"
 import Poster from "./components/Poster"
-import Specility from "./components/Specility"
-import Ourservices from "./components/Ourservices"
+import Services from "./components/Services"
+
+import  "./components/main.css";
 
 
 function App() {
@@ -12,8 +13,8 @@ function App() {
     <div className='h'>
      <Navbar/>     
       <Poster/>
-      <Specility/> 
-      <Ourservices/>
+      <Services/>
+    
 
 
     </div>

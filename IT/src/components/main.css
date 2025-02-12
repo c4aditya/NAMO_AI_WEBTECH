@@ -1,0 +1,351 @@
+/* Navbar Styles */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar {
+      height: 50px;
+    background-color: black;
+    color:#23df75;
+    padding: 10px 0;
+   
+  
+
+}
+
+.nav-container {
+    position: fixed; /* Fixes the navbar on the screen */
+    top: 10px; /* Adjust as needed */
+    left: 50%; /* Moves it to the center */
+    transform: translateX(-50%); /* Perfectly centers it */
+    
+    width: 85%;
+    border-radius: 25px;
+    padding: 10px;
+    border: 1px solid #23DF75;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7); /* Add background for visibility */
+    z-index: 1000; /* Keeps it above other elements */
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+   color: #23df75;
+}
+
+.nav-links {
+    justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    font-weight: 600;
+    list-style: none;    
+    width: 45%;
+
+}
+
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;   
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    font-size: 1.1rem;
+    padding: 5px;
+    font-weight: lighter;
+    color:#52D68C;
+    font-weight:400;
+}
+
+.nav-item svg{
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+}
+
+
+
+.nav-item:hover {
+    transform: scale(1.1);
+    color:white;
+    /* border-bottom: 1px solid #A134FC; */
+    font-weight: 500;
+}
+
+/* nav bar end  */
+
+/* Mobile Styles */
+.menu-btn {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+/*  poster starts */
+.posters {
+  
+    padding: 10px;
+    display: flex;
+    background-color:black;
+    height: 500px;
+}
+
+.poster {
+ 
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+.title-image {
+   
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.decrement {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(-5%, -50%);
+    font-size: 1.4rem;
+    color:white;
+}
+
+.increment {
+    font-size: 1.4rem;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(-5%, -50%);
+    color:white;
+}
+
+.animation svg {
+    
+    width: 30rem !important;
+    background-color: black;
+    animation: slideInRight 0.8s ease-in-out;
+}
+
+
+  
+
+.title {
+    gap: 10px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* 🔥 Animations */
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Default: Hide h1, p, and button before animation */
+.title h1, .title p, .title .btn {
+    opacity: 0;
+}
+
+/* Apply animation only when .animate class is added */
+.title.animate h1 {
+   
+    width: 90%;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #23df75; 
+    font-weight: bold;
+    animation: slideInLeft 0.8s ease-in-out forwards;
+}
+
+.title.animate p {
+
+    color: white;
+  
+    width: 90%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    font-weight: bold;
+    animation: slideInLeft 0.8s ease-in-out 0.2s forwards;
+}
+
+.title.animate .btn {
+     margin-top: 15px;
+    justify-content: space-between;
+    display: flex;
+    justify-items: center;
+    align-items: center;   
+    font-weight: 500;
+    border: none;
+    border-radius: 20px;
+    background-color:#23df75;
+    font-size: 1.3rem;
+    color: white;
+    padding: 10px;
+    width: 35%;
+    cursor: pointer;
+    animation: slideInLeft 0.8s ease-in-out 0.4s forwards;
+    transition:transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    
+}
+
+.movingarrow {
+   
+    position: absolute;
+    right: 5%;
+    bottom: 11%;
+    /* border: 1px solid #A134FB ; */
+    display: flex;
+    font-size: 2rem;
+    transform: translateX(0px) rotate(0deg);
+    opacity: 1;
+    transition: transform 0.25s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+
+
+.btn:hover{
+    .movingarrow svg{
+        /* background-color:#FF3F86; */     
+        border-radius: 100%;
+    }
+}
+.title.animate .btn:hover .movingarrow {
+    transform: translateX(25px)  rotate(40deg); 
+    opacity: 1;
+    background-color: #52D68C;
+    border-radius: 100%;
+ 
+}
+
+
+/* services css */
+/* Services Section */
+
+.desing-develop-deploy {
+    display: flex;
+    justify-content: center;
+
+}
+
+.desing-develop-deploy ul {
+    border: 2px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    font-size: 4rem;
+    width: 80%;
+    margin: auto;
+    color: white;
+}
+
+.main-services-container{
+    background-color: #181818;
+}
+.services-container {
+    margin: auto;
+    width: 80%;   
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+    justify-content: center;
+    background-color: #181818;
+}
+
+.service-card {
+    border: 0.1px solid #23DF75;
+    padding: 10px;
+    border-radius: 15px;
+    
+   
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    background-color: rgba(243, 242, 242, 0.1);
+}
+
+.icon-container {
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.icon {
+    font-size: 50px;
+}
+
+.green { color: #23df75; }
+.teal { color: #3accc9; }
+.yellow-green { color: #c3ff71; }
+.mint { color: #00ffa2; }
+
+.green-bg { background-color: rgba(35, 223, 117, 0.1); }
+.teal-bg { background-color: rgba(58, 204, 201, 0.1); }
+.yellow-green-bg { background-color: rgba(195, 255, 113, 0.1); }
+.mint-bg { background-color: rgba(0, 255, 162, 0.1); }
+
+.service-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #23df75;
+}
+
+.service-description {
+    font-size: 1em;
+    color: white;
+    font-weight: 500;
+    margin-top: 10px;
+   }
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.icon-container svg {
+    fill: white;
+    stroke: white;
+}
+
+.service-card {
+    opacity: 0;
+    animation: fadeIn 0.6s ease-in-out forwards;
+}

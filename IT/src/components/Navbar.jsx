@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { FaHome, FaInfoCircle, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
-import "./navbar.css"; // Import CSS file
+
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
