@@ -317,7 +317,7 @@
 }
 
 .icon {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 
@@ -533,4 +533,64 @@
 
 .digital-markting{
     margin-top: 100px;
+}
+
+
+/* technology we use css */
+
+.technologys-section{
+    color: white;
+   
+    margin-top: 100px;
+}
+
+.main-technologys-section{
+    width: 85%;
+   
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+   
+}
+
+.technology-heading p{
+    margin-top: 20px;
+    color: #6B8379;
+}
+
+.logos-technology{
+    display: flex;
+    gap: 20px;
+ 
+  justify-content: space-between;
+  padding: 20px;
+  margin-top: 20px;
+  
+}
+
+.logos-technology svg{
+    font-size: 3.5rem;
+    color: white;
+}
+.logo p{
+   
+    color:white;
+    font-size: 1rem;
+    display: none;
+     position: absolute;
+    
+    
+}
+
+.logos-technology svg:hover{
+    
+     color: #6B8379;
+}
+
+.logo:hover p {
+    display: block;
+    color: #23DF75;
+}
+.green{
+    color: #23DF75;
 }

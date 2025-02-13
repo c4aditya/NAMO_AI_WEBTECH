@@ -1,11 +1,20 @@
 import { FaLaptopCode } from "react-icons/fa";
 import { CiMobile1 } from "react-icons/ci";
+
+import { FaReact } from "react-icons/fa";
+import { FaHtml5 } from "react-icons/fa";
+import { SiCss3 } from "react-icons/si";
+import { FaAngular } from "react-icons/fa6";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { IoLogoJavascript } from "react-icons/io";
+import { TbBrandNextjs } from "react-icons/tb";
+
 function WeDo() {
     return (
         <>  
             <div className="we-do-main-top">
                 <div className="heading-text">
-                    <h1>This What We Do</h1>
+                    <h1>This What <span className="green">We Do ?</span> </h1>
                 </div>
                 <div className="we-do-main">
                     <div className="we-do-main-logo">
@@ -257,6 +266,56 @@ function WeDo() {
                             </div>
                         </div>
                     </div>
+                </div>
+
+                <div className="technologys-section">
+                    <div className="main-technologys-section">
+                    <div className="technology-heading">
+                        <h1>You Say  <span className="green"> Tech Stack?</span> We Say Yes</h1>
+                        <p>Never Compromise On Tech Stack Selection Ever Again</p>
+                    </div>
+
+                    <div className="logos-technology">
+
+                        <div className="logo">
+                           
+                            <FaHtml5/>
+                            <p>HTMl5</p>
+                        </div>
+
+                        <div className="logo">
+                            <SiCss3/>
+                            <p>CSS3</p>
+                        </div>
+
+                        <div className="logo">
+                            <RiTailwindCssFill/>
+                            <p>TailwindCSS</p>
+                        </div>
+                        <div className="logo">
+                            <IoLogoJavascript/>
+                            <p>Javascript</p>
+                        </div>
+                        
+                        <div className="logo">
+                            <FaReact/>
+                            <p>React js</p>
+                        </div>
+                        
+
+                        <div className="logo">
+                            <FaAngular/>
+                            <p>Angular</p>
+                        </div>
+                        <div className="logo">
+                            <TbBrandNextjs/>
+                            <p>Nextjs</p>
+                        </div>
+
+
+                    </div>
+                    </div>
+
                 </div>
             </div>
         </>
