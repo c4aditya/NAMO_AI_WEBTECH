@@ -1,6 +1,7 @@
-import Navbar from "./components/Navbar"
-import Poster from "./components/Poster"
-import Services from "./components/Services"
+import Navbar from "./components/Navbar";
+import Poster from "./components/Poster";
+import Services from "./components/Services";
+import Wedo from "./components/WeDo";
 
 import  "./components/main.css";
 
@@ -14,6 +15,7 @@ function App() {
      <Navbar/>     
       <Poster/>
       <Services/>
+      <Wedo/>
     
 
 
