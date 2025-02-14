@@ -1,6 +1,7 @@
 /* Navbar Styles */
 
 * {
+    
     padding: 0px;
     margin: 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -593,4 +594,103 @@
 }
 .green{
     color: #23DF75;
+}
+
+
+
+
+/* counter and tursted section */
+.main-tursted-section{
+    padding-top: 50px;
+    background-color: #181818;
+    color:white;
+  
+}
+
+.sub-tursted-section{
+    /* border: 0.5px solid green; */
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+.tursted-section{
+    padding:5% 30px 0px 30px ;
+    
+    text-align: center;
+}
+
+.tursted-para {
+    
+   
+    width: 80%;
+    font-size: 1.3rem;
+    margin:20px  auto ;
+    color: #6B8379;
+}
+
+.patners-images {
+    /* width: 80%; */
+    margin: auto;
+    overflow: hidden;
+    white-space: nowrap; 
+    display: flex;
+  }
+  
+  .patners-wrapper {
+
+  padding: 10px; 
+    display: flex;
+    gap: 50px;
+    animation: scroll 60s linear infinite; 
+  }
+  .patners{
+    border: 2px solid green;
+  }
+
+  .patners h1{
+    font-size: 1.5rem;
+  }
+  
+  @keyframes scroll {
+    from {
+      transform: translateX(10%); 
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .patners {
+
+    min-width: 100px;
+    
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+.top-counter{
+    padding: 10px;
+    margin-top: 50px;
+
+}
+
+.main-counter{
+    margin: auto;
+    width: 80%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.counter-value{
+    text-align: center;
+    padding: 10px;
+  
+}
+
+.counter-value p{
+    color: #667C73;
+    font-size: 1.2rem;
 }
