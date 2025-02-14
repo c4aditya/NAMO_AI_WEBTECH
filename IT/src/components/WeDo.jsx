@@ -1,6 +1,6 @@
 import { FaLaptopCode } from "react-icons/fa";
 import { CiMobile1 } from "react-icons/ci";
-
+import Right from "../animations/process.json";
 import { FaReact } from "react-icons/fa";
 import { FaHtml5 } from "react-icons/fa";
 import { SiCss3 } from "react-icons/si";
@@ -8,10 +8,11 @@ import { FaAngular } from "react-icons/fa6";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { IoLogoJavascript } from "react-icons/io";
 import { TbBrandNextjs } from "react-icons/tb";
+import Lottie from "lottie-react";
 
 function WeDo() {
     return (
-        <>  
+        <>
             <div className="we-do-main-top">
                 <div className="heading-text">
                     <h1>This What <span className="green">We Do ?</span> </h1>
@@ -52,8 +53,8 @@ function WeDo() {
                                 <div className="first-card-heading">
                                     <h1>Website Speed</h1>
                                     <p>
-                                        Optimizing website speed improves user experience and engagement. <br/>
-                                            Faster websites also help in achieving better SEO rankings.
+                                        Optimizing website speed improves user experience and engagement. <br />
+                                        Faster websites also help in achieving better SEO rankings.
                                     </p>
 
                                 </div>
@@ -69,8 +70,8 @@ function WeDo() {
                                 <div className="first-card-heading">
                                     <h1>Website Performance</h1>
                                     <p>
-                                        Optimizing website speed improves user experience and engagement. <br/>
-                                            Faster websites also help in achieving better SEO rankings.
+                                        Optimizing website speed improves user experience and engagement. <br />
+                                        Faster websites also help in achieving better SEO rankings.
                                     </p>
                                 </div>
                                 <hr className="underline-color"></hr>
@@ -84,8 +85,8 @@ function WeDo() {
                                 <div className="first-card-heading">
                                     <h1>Website Security</h1>
                                     <p>
-                                        Optimizing website speed improves user experience and engagement. <br/>
-                                            Faster websites also help in achieving better SEO rankings.
+                                        Optimizing website speed improves user experience and engagement. <br />
+                                        Faster websites also help in achieving better SEO rankings.
                                     </p>
                                 </div>
                                 <hr className="underline-color"></hr>
@@ -96,17 +97,17 @@ function WeDo() {
                 </div>
 
 
-                  {/* mobile app development  */}
+                {/* mobile app development  */}
 
 
                 <div className="we-do-main mobile">
                     <div className="we-do-main-logo mobile-img">
-                        <CiMobile1/>
+                        <CiMobile1 />
                     </div>
 
                     <div className="we-do-main-containt">
 
-                    <div className="right-content">
+                        <div className="right-content">
                             <div className="first-card">
                                 <div className="logo-we-do">
                                     <img src="https://thinktoshare.com/_nuxt/nativeapp.f7wL5rP3.svg"></img>
@@ -115,8 +116,8 @@ function WeDo() {
                                 <div className="first-card-heading mobile-heading">
                                     <h1>App Development</h1>
                                     <p>
-                                        Optimizing App speed improves user experience and engagement. <br/>
-                                            Faster app also help in achieving better in play store.
+                                        Optimizing App speed improves user experience and engagement. <br />
+                                        Faster app also help in achieving better in play store.
                                     </p>
 
                                 </div>
@@ -132,8 +133,8 @@ function WeDo() {
                                 <div className="first-card-heading mobile-heading">
                                     <h1>Hybrid Apps</h1>
                                     <p>
-                                        Optimizing App speed improves user experience and engagement. <br/>
-                                            Faster websites also help in achieving better SEO rankings.
+                                        Optimizing App speed improves user experience and engagement. <br />
+                                        Faster websites also help in achieving better SEO rankings.
                                     </p>
                                 </div>
                                 <hr className="underline-color mobile-underline"></hr>
@@ -147,8 +148,8 @@ function WeDo() {
                                 <div className="first-card-heading mobile-heading">
                                     <h1>Andriod / IOS</h1>
                                     <p>
-                                        Optimizing website speed improves user experience and engagement. <br/>
-                                            Faster websites also help in achieving better SEO rankings.
+                                        Optimizing website speed improves user experience and engagement. <br />
+                                        Faster websites also help in achieving better SEO rankings.
                                     </p>
                                 </div>
                                 <hr className="underline-color mobile-underline"></hr>
@@ -176,7 +177,7 @@ function WeDo() {
 
                         </div>
 
-                      
+
                     </div>
                 </div>
 
@@ -225,8 +226,8 @@ function WeDo() {
                                 <div className="first-card-heading">
                                     <h1>Consistency</h1>
                                     <p>
-                                        Optimizing website speed improves user experience and engagement. <br/>
-                                            Faster websites also help in achieving better SEO rankings.
+                                        Optimizing website speed improves user experience and engagement. <br />
+                                        Faster websites also help in achieving better SEO rankings.
                                     </p>
 
                                 </div>
@@ -242,8 +243,8 @@ function WeDo() {
                                 <div className="first-card-heading">
                                     <h1> Performance</h1>
                                     <p>
-                                        Optimizing website speed improves user experience and engagement. <br/>
-                                            Faster websites also help in achieving better SEO rankings.
+                                        Optimizing website speed improves user experience and engagement. <br />
+                                        Faster websites also help in achieving better SEO rankings.
                                     </p>
                                 </div>
                                 <hr className="underline-color"></hr>
@@ -257,8 +258,8 @@ function WeDo() {
                                 <div className="first-card-heading">
                                     <h1>Accessbility</h1>
                                     <p>
-                                        Optimizing website speed improves user experience and engagement. <br/>
-                                            Faster websites also help in achieving better SEO rankings.
+                                        Optimizing website speed improves user experience and engagement. <br />
+                                        Faster websites also help in achieving better SEO rankings.
                                     </p>
                                 </div>
                                 <hr className="underline-color"></hr>
@@ -270,52 +271,146 @@ function WeDo() {
 
                 <div className="technologys-section">
                     <div className="main-technologys-section">
-                    <div className="technology-heading">
-                        <h1>You Say  <span className="green"> Tech Stack?</span> We Say Yes</h1>
-                        <p>Never Compromise On Tech Stack Selection Ever Again</p>
+                        <div className="technology-heading">
+                            <h1>You Say  <span className="green"> Tech Stack?</span> We Say Yes</h1>
+                            <p>Never Compromise On Tech Stack Selection Ever Again</p>
+                        </div>
+
+                        <div className="logos-technology">
+
+                            <div className="logo">
+
+                                <FaHtml5 />
+                                <p>HTMl5</p>
+                            </div>
+
+                            <div className="logo">
+                                <SiCss3 />
+                                <p>CSS3</p>
+                            </div>
+
+                            <div className="logo">
+                                <RiTailwindCssFill />
+                                <p>TailwindCSS</p>
+                            </div>
+                            <div className="logo">
+                                <IoLogoJavascript />
+                                <p>Javascript</p>
+                            </div>
+
+                            <div className="logo">
+                                <FaReact />
+                                <p>React js</p>
+                            </div>
+
+
+                            <div className="logo">
+                                <FaAngular />
+                                <p>Angular</p>
+                            </div>
+                            <div className="logo">
+                                <TbBrandNextjs />
+                                <p>Nextjs</p>
+                            </div>
+
+
+                        </div>
                     </div>
 
-                    <div className="logos-technology">
+                </div>
+            </div>
 
-                        <div className="logo">
-                           
-                            <FaHtml5/>
-                            <p>HTMl5</p>
+            {/* how we work  section  */}
+
+            <div className="main-our-process">
+                <div className="main-our-process-content">
+                <h1>How we <span className="green"> Works </span></h1>
+                <p>Check out our work process</p>
+                </div>
+                <div className="sub-our-process">
+                <Lottie animationData={Right}  play loop className="lottie-background"></Lottie>
+                    <div className="left-our-process">
+                       
+                        <div className="image-our-process">
+
+                           <div className="our-process-heading one">
+                            <h1>Our process</h1>
+                           </div>
+
+
+                           <div className="our-process-heading two">
+                            <h1>Simple, seamless</h1>
+                           </div>
+
+                           <div className="our-process-heading three">
+                            <h1>Streamlined.</h1>
+                           </div>
+
+
+
+
+
+                        </div>
+                    </div>
+
+                    
+
+                    <div className="right-our-process">
+
+                   
+
+                        <div className="step1">
+                            <div className="stepnumber">
+                                <p>01</p>
+                            </div>
+
+                            <div className="step-content">
+                                <h1>Choose Service</h1>
+                                <p>Select the right service that fits your needs, whether it's web development, app development, or software solutions.</p>
+                            </div>
                         </div>
 
-                        <div className="logo">
-                            <SiCss3/>
-                            <p>CSS3</p>
+
+
+                        <div className="step2">
+                            <div className="stepnumber">
+                                <p>02</p>
+                            </div>
+
+                            <div className="step-content">
+                                <h1>Request a Meeting</h1>
+                                <p>Schedule a meeting with our team to discuss your project needs, goals, and expectations. We’ll guide you through the next steps.</p>
+                            </div>
                         </div>
 
-                        <div className="logo">
-                            <RiTailwindCssFill/>
-                            <p>TailwindCSS</p>
-                        </div>
-                        <div className="logo">
-                            <IoLogoJavascript/>
-                            <p>Javascript</p>
-                        </div>
-                        
-                        <div className="logo">
-                            <FaReact/>
-                            <p>React js</p>
-                        </div>
-                        
 
-                        <div className="logo">
-                            <FaAngular/>
-                            <p>Angular</p>
+                        <div className="step3">
+                            <div className="stepnumber">
+                                <p>03</p>
+                            </div>
+
+                            <div className="step-content">
+                                <h1>Choose Your Plan</h1>
+                                <p>Select a service package that fits your budget and requirements. We offer flexible plans tailored to your needs.</p>
+                            </div>
                         </div>
-                        <div className="logo">
-                            <TbBrandNextjs/>
-                            <p>Nextjs</p>
+
+
+                        <div className="step4">
+                            <div className="stepnumber">
+                                <p>04</p>
+                            </div>
+
+                            <div className="step-content">
+                                <h1>Let's Develop</h1>
+                                <p>Now it's time to bring your idea to life! Our expert team will start developing your project with precision and efficiency.</p>
+                            </div>
                         </div>
+
+
 
 
                     </div>
-                    </div>
-
                 </div>
             </div>
         </>

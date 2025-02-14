@@ -2,7 +2,8 @@ import Navbar from "./components/Navbar";
 import Poster from "./components/Poster";
 import Services from "./components/Services";
 import Wedo from "./components/WeDo";
-import Counter from "./components/Counter"
+import Counter from "./components/Counter";
+
 import  "./components/main.css";
 
 
@@ -17,6 +18,7 @@ function App() {
       <Services/>
       <Counter/>
       <Wedo/> 
+    
       </div>
     </>
   
