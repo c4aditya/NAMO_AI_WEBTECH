@@ -30,7 +30,7 @@ function Poster() {
         setAnimate(true); // Animation enable every time poster changes
         const changeImageTimer = setInterval(() => {
             increment();
-        }, 7000);
+        }, 500000000000);
         return () => clearInterval(changeImageTimer);
     }, [currentIndex]);
 
@@ -47,15 +47,17 @@ function Poster() {
                         <div className={`title ${animate ? "animate" : ""}`}>
                             <h1>{Slides[currentIndex].title}</h1>
                             <p>{Slides[currentIndex].description}</p>
+                            <div className="button">
                             <button className="btn">Get In Touch
                                 <div className="movingarrow">
                                     <BiRightTopArrowCircle />
                                 </div>
                             </button>
+                            </div>
 
                         </div>
                         <div className="animation">
-                            <Lottie animationData={Slides[currentIndex].animation} loop={true} />
+                            <Lottie animationData={Slides[currentIndex].animation} loop={false} />
                         </div>
                     </div>
                     <div className="increment" onClick={increment}>

@@ -15,9 +15,9 @@ function App() {
     <div className='h'>
      <Navbar/>     
       <Poster/>
-      <Services/>
+      {/* <Services/>
       <Counter/>
-      <Wedo/> 
+      <Wedo/>   */}
     
       </div>
     </>
