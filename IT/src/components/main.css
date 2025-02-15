@@ -387,7 +387,7 @@
 .we-do-main-logo {
     right: 0px;
     top: -45px;
-    transform: translateX(-0px);
+    transform: translateX(0px) translateY(0px);
     padding: 0px;
 
     width: 100%;
@@ -733,6 +733,11 @@
 
 
 /* counter and tursted section */
+
+.counter-value{
+    border: 1px solid green;
+    border-radius: 5px;
+}
 .main-tursted-section {
     padding-top: 50px;
     background-color: #181818;
@@ -825,12 +830,12 @@
 }
 
 .counter-value h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 .counter-value p {
     color: #667C73;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 
@@ -849,6 +854,10 @@
     .title.animate h1 {
         width: 100%;
     }
+
+    /* counter  */
+
+   
 
 }
 
@@ -980,6 +989,50 @@
     }
 
 
+    /* counter  */
+
+    
+   
+    .counter-value {
+        margin: auto;
+        
+        padding: 5px;
+        border: 1px solid green;
+        border-radius: 5px;
+    }
+
+
+.tursted-section {
+    padding: 0px;
+}
+
+
+.tursted-heading{
+   
+    font-size: 20px;
+}
+
+.tursted-para{
+    width: 100%;
+    text-align: justify;
+    word-spacing: -5px;
+    font-size: 1.1rem;
+}
+
+.patners h1{
+    font-size: 1rem;
+}
+
+.counter-value h1{
+    font-size: 2rem;
+}
+.counter-value p{
+    font-size: 1rem;
+}
+
+
+
+
 }
 
 
@@ -1105,6 +1158,146 @@
         display: grid;
         grid-template-columns: repeat(1 , 1fr);
     }
+   
+
+    /* counter  */
+
+    .counter-value{
+        width: 46%;
+        margin-top: 10px;
+    }
+
+.main-counter{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+}
+
+
+.main-counter{
+    display: grid;
+    grid-template-columns: repeat(1 , 1fr);
+}
+
+
+
+.tursted-section {
+    padding: 0px;
+}
+
+
+.tursted-heading{
+   
+    font-size: 20px;
+}
+
+.tursted-para{
+    width: 100%;
+    text-align: justify;
+    word-spacing: -5px;
+    font-size: 1.1rem;
+}
+
+.patners h1{
+    font-size: 1rem;
+}
+
+.counter-value h1{
+    font-size: 1.8rem;
+}
+.counter-value p{
+    font-size: 1rem;
+}
+
+
+.we-do-main-containt {
+    padding: 0px;
+   
+    flex-direction: column-reverse;
+}
+
+.right-content {
+    width: 90%;
+}
+.left-content {
+    width: 100%;
+}
+.logos-technology{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+}
+.headind-we-do h1{
+    font-size: 20px;
+}
+.top-para-we-do p{
+    font-size: 1.2rem;
+}
+
+.discripction-we-do p {
+    font-size: 13px;
+}
+
+.first-card-heading h1 {
+    font-size: 16px;
+}
+.first-card-heading p{
+    font-size: 13px;
+}
+.heading-text h1 {
+    font-size: 20px;
+}
+
+.we-do-main-logo{
+    font-size: 2rem;
+}
+
+.btn-we-do{
+    padding: 5px;
+    font-size: 1rem;
+}
+
+.technology-heading h1{
+    font-size: 1.4rem;
+}
+
+.technology-heading p {
+    font-size: 13px;
+}
+.logos-technology svg{
+    font-size: 2.7rem;
+}
+
+.main-our-process-content  h1{
+    font-size: 20px;
+}
+
+.main-our-process-content  p{
+    font-size: 13px;
+}
+
+.sub-our-process{
+   
+    display: flex;
+    flex-direction: column;
+}
+.our-process-heading{
+    padding: 5px;
+    font-size: 10px;
+   
+}
+
+.image-our-process{
+    
+    margin:10px auto;
+}
+.step-content h1 {
+    font-size: 1rem;
+}
+
+.step-content p{
+    font-size: 13px;
+    text-align: justify;
+}
+
 
 
 }
@@ -1234,6 +1427,147 @@
         grid-template-columns: repeat(1 , 1fr);
     }
 
+    /* counter  */
+
+    .counter-value{
+        width: 50%;
+        margin-top: 10px;
+    }
+
+.main-counter{
+    display: grid;
+    grid-template-columns: repeat(1 , 1fr);
+}
+
+
+.main-counter{
+    display: grid;
+    grid-template-columns: repeat(1  , 1fr);
+}
+
+
+
+.tursted-section {
+    padding: 0px;
+}
+
+
+.tursted-heading{
+   
+    font-size: 20px;
+}
+
+.tursted-para{
+    width: 100%;
+    text-align: justify;
+    word-spacing: -5px;
+    font-size: 1.1rem;
+}
+
+.patners h1{
+    font-size: 1rem;
+}
+
+.counter-value h1{
+    font-size: 1.8rem;
+}
+.counter-value p{
+    font-size: 1rem;
+}
+
+
+/* we do  */
+
+.we-do-main-containt {
+    padding: 0px;
+   
+    flex-direction: column-reverse;
+}
+
+.right-content {
+    width: 90%;
+}
+.left-content {
+    width: 100%;
+}
+.logos-technology{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+}
+.headind-we-do h1{
+    font-size: 20px;
+}
+.top-para-we-do p{
+    font-size: 1.2rem;
+}
+
+.discripction-we-do p {
+    font-size: 13px;
+}
+
+.first-card-heading h1 {
+    font-size: 16px;
+}
+.first-card-heading p{
+    font-size: 13px;
+}
+.heading-text h1 {
+    font-size: 20px;
+}
+
+.we-do-main-logo{
+    font-size: 2rem;
+}
+
+.btn-we-do{
+    padding: 5px;
+    font-size: 1rem;
+}
+
+.technology-heading h1{
+    font-size: 1.4rem;
+}
+
+.technology-heading p {
+    font-size: 13px;
+}
+.logos-technology svg{
+    font-size: 2.7rem;
+}
+
+.main-our-process-content  h1{
+    font-size: 20px;
+}
+
+.main-our-process-content  p{
+    font-size: 13px;
+}
+
+.sub-our-process{
+   
+    display: flex;
+    flex-direction: column;
+}
+.our-process-heading{
+    padding: 5px;
+    font-size: 10px;
+   
+}
+
+.image-our-process{
+    
+    margin:10px auto;
+}
+.step-content h1 {
+    font-size: 1rem;
+}
+
+.step-content p{
+    font-size: 13px;
+    text-align: justify;
+}
+
+
 
 }
 
@@ -1362,6 +1696,139 @@
         display: grid;
         grid-template-columns: repeat(1 , 1fr);
     }
+/* counter  */
 
+.counter-value{
+    margin: auto;
+    width: 60%;
+    margin-top: 10px;
+}
+
+.main-counter{
+    display: grid;
+    grid-template-columns: repeat(1 , 1fr);
+}
+
+
+
+.tursted-section {
+    padding: 0px;
+}
+
+
+.tursted-heading{
+   
+    font-size: 20px;
+}
+
+.tursted-para{
+    width: 100%;
+    text-align: justify;
+    word-spacing: -5px;
+    font-size: 1.1rem;
+}
+
+.patners h1{
+    font-size: 1rem;
+}
+
+.counter-value h1{
+    font-size: 1.5rem;
+}
+.counter-value p{
+    font-size: 1rem;
+}
+
+
+/* what we do section  */
+
+.we-do-main-containt {
+    padding: 0px;
+   
+    flex-direction: column-reverse;
+}
+
+.right-content {
+    width: 90%;
+}
+.left-content {
+    width: 100%;
+}
+.logos-technology{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+}
+.headind-we-do h1{
+    font-size: 20px;
+}
+.top-para-we-do p{
+    font-size: 1.2rem;
+}
+
+.discripction-we-do p {
+    font-size: 13px;
+}
+
+.first-card-heading h1 {
+    font-size: 16px;
+}
+.first-card-heading p{
+    font-size: 13px;
+}
+.heading-text h1 {
+    font-size: 20px;
+}
+
+.we-do-main-logo{
+    font-size: 2rem;
+}
+
+.btn-we-do{
+    padding: 5px;
+    font-size: 1rem;
+}
+
+.technology-heading h1{
+    font-size: 1.4rem;
+}
+
+.technology-heading p {
+    font-size: 13px;
+}
+.logos-technology svg{
+    font-size: 2.7rem;
+}
+
+.main-our-process-content  h1{
+    font-size: 20px;
+}
+
+.main-our-process-content  p{
+    font-size: 13px;
+}
+
+.sub-our-process{
+   
+    display: flex;
+    flex-direction: column;
+}
+.our-process-heading{
+    padding: 5px;
+    font-size: 10px;
+   
+}
+
+.image-our-process{
+    
+    margin:10px auto;
+}
+.step-content h1 {
+    font-size: 1rem;
+}
+
+.step-content p{
+    font-size: 13px;
+    text-align: justify;
+}
 
 }

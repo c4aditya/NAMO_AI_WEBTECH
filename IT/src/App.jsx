@@ -16,8 +16,8 @@ function App() {
      <Navbar/>     
       <Poster/>
        <Services/>
-      {/* <Counter/> */}
-      {/* <Wedo/>    */}
+      <Counter/>
+      <Wedo/>   
     
       </div>
     </>
