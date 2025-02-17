@@ -21,6 +21,7 @@ const Navbar = () => {
           <NavItem  text="Portfolio" />
           <NavItem  text="Services" />
         </ul>
+        
 
         {/* Mobile Menu Button */}
         <button onClick={() => setIsOpen(!isOpen)} className="menu-btn">

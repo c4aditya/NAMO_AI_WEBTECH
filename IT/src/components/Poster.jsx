@@ -41,18 +41,18 @@ function Poster() {
 
                 <div className="poster">
                     <div className="decrement" onClick={decrement}>
-                        <h1>< MdKeyboardArrowLeft/></h1>
+                        <h1>< MdKeyboardArrowLeft /></h1>
                     </div>
                     <div className="title-image">
                         <div className={`title ${animate ? "animate" : ""}`}>
                             <h1>{Slides[currentIndex].title}</h1>
                             <p>{Slides[currentIndex].description}</p>
                             <div className="button">
-                            <button className="btn">Get In Touch
-                                <div className="movingarrow">
-                                    <BiRightTopArrowCircle />
-                                </div>
-                            </button>
+                                <button className="btn">Get In Touch
+                                    <div className="movingarrow">
+                                        <BiRightTopArrowCircle />
+                                    </div>
+                                </button>
                             </div>
 
                         </div>
@@ -61,7 +61,7 @@ function Poster() {
                         </div>
                     </div>
                     <div className="increment" onClick={increment}>
-                        <h1><MdKeyboardArrowRight/></h1>
+                        <h1><MdKeyboardArrowRight /></h1>
                     </div>
                 </div>
             </div>

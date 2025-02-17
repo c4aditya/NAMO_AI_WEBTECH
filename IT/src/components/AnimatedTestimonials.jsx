@@ -86,14 +86,14 @@ export const AnimatedTestimonials = ({ testimonials, autoplay = false }) => {
           exit={{ y: -20, opacity: 0 }}
           transition={{ duration: 0.2, ease: "easeInOut" }}
         >
-          <h3 className="text-2xl font-bold dark:text-white text-black">
+          <h3 className="text-2xl font-bold  text-white">
             {testimonials[active].name}
           </h3>
           <p className="text-sm text-gray-500 dark:text-neutral-500">
             {testimonials[active].designation}
           </p>
 
-          <motion.p className="text-lg text-gray-500 mt-8 dark:text-neutral-300">
+          <motion.p className="text-lg text-white mt-8 ">
             {testimonials[active].quote.split(" ").map((word, index) => (
               <motion.span
                 key={index}
@@ -116,13 +116,13 @@ export const AnimatedTestimonials = ({ testimonials, autoplay = false }) => {
         <div className="flex gap-4 left-right-buttons-clients pt-12 md:pt-0">
           <button
             onClick={handlePrev}
-            className="h-7 w-7 rounded-full bg-gray-100 dark:bg-neutral-800 flex items-center justify-center group/button"
+            className="h-7 w-7 rounded-full  flex items-center justify-center group/button"
           >
             <FaArrowLeft className="h-5 w-5 text-green-400 group-hover/button:rotate-12 transition-transform duration-300" />
           </button>
           <button
             onClick={handleNext}
-            className="h-7 w-7 rounded-full bg-gray-100 dark:bg-neutral-800 flex items-center justify-center group/button"
+            className="h-7 w-7 rounded-full  flex items-center justify-center group/button"
           >
             <FaArrowRight className="h-5 w-5 text-green-400 group-hover/button:-rotate-12 transition-transform duration-300" />
           </button>
