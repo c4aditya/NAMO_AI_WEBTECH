@@ -1,4 +1,5 @@
 /* Navbar Styles */
+@import "tailwindcss";
 
 * {
 
@@ -248,7 +249,9 @@
 }
 
 
-
+.tursted-heading {
+    font-size: 2rem;
+}
 
 
 .btn:hover {
@@ -361,8 +364,11 @@
     animation: fadeIn 0.6s ease-in-out forwards;
 }
 
-/* what we do css start */
 
+/* what we do css start */
+.heading-text h1{
+    font-size: 2rem;
+}
 .we-do-main-top {
 
     padding-top: 50px;
@@ -679,6 +685,10 @@
 .our-process-heading:hover {
     transform: rotate(0deg);
 }
+ 
+.main-our-process-content h1{
+    font-size: 2rem;
+}
 
 .image-our-process {
     gap: 20px;
@@ -837,8 +847,74 @@
     color: #667C73;
     font-size: 1rem;
 }
+/* our happy clients  */
+
+.ourClients-heading{
+   padding-bottom: 50px;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
 
 
+}
+
+.our-clients{
+    
+    padding-top: 50px;
+    border: 1px solid #181818;
+    background-color: #181818;
+}
+
+.main-our-client{
+   padding: 10px;
+    border-radius: 10px;
+    width: 85%;
+    margin: auto;
+}
+
+.our-client-images{
+    border: 1px solid green;
+  
+    width: 78%;
+}
+
+.our-client-images img{
+    width: 100%;
+}
+
+
+.main-content{
+    padding: 20px;
+
+ display: grid;
+ grid-template-columns: repeat(2 , 1fr);
+ gap: 20px;
+
+
+}
+.main-content-image-text-client {
+    border: 2px solid white;
+    display: grid;
+ 
+    grid-template-columns: repeat(2 ,50%);
+  
+  }
+
+ 
+
+  .left-side-test-content p{
+    
+    margin-top: 20px;
+  }
+
+  .left-right-buttons-clients{
+    
+    margin-top: 55px;
+  }
+.technology-heading h1{
+    font-size: 2rem;
+
+}
 
 /* responsive design  */
 @media screen and (max-width : 1050px) {

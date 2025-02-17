@@ -3,7 +3,7 @@ import Poster from "./components/Poster";
 import Services from "./components/Services";
 import Wedo from "./components/WeDo";
 import Counter from "./components/Counter";
-
+import OurClient from "./components/OurClients";
 import  "./components/main.css";
 
 
@@ -18,6 +18,7 @@ function App() {
        <Services/>
       <Counter/>
       <Wedo/>   
+      <OurClient/>
     
       </div>
     </>

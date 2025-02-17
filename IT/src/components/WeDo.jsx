@@ -10,6 +10,7 @@ import { IoLogoJavascript } from "react-icons/io";
 import { TbBrandNextjs } from "react-icons/tb";
 import Lottie from "lottie-react";
 
+
 function WeDo() {
     return (
         <>
