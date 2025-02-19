@@ -5,6 +5,7 @@ import Wedo from "./components/WeDo";
 import Counter from "./components/Counter";
 import OurClient from "./components/OurClients";
 import  "./components/main.css";
+import Footer from "./components/Footer"
 
 
 
@@ -20,6 +21,7 @@ function App() {
       <Counter/>
       <Wedo/>   
       <OurClient/>
+      <Footer/>
      
     
       </div>

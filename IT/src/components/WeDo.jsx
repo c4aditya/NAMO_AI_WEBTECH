@@ -1,6 +1,6 @@
 import { FaLaptopCode } from "react-icons/fa";
 import { CiMobile1 } from "react-icons/ci";
-import Right from "../animations/process.json";
+
 import { FaReact } from "react-icons/fa";
 import { FaHtml5 } from "react-icons/fa";
 import { SiCss3 } from "react-icons/si";
@@ -8,7 +8,8 @@ import { FaAngular } from "react-icons/fa6";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { IoLogoJavascript } from "react-icons/io";
 import { TbBrandNextjs } from "react-icons/tb";
-import Lottie from "lottie-react";
+
+import ServicImg from "../Images/servicesposter.jpg"
 
 
 function WeDo() {
@@ -325,40 +326,22 @@ function WeDo() {
 
             <div className="main-our-process">
                 <div className="main-our-process-content">
-                <h1>How we <span className="green"> Works </span></h1>
-                <p>Check out our work process</p>
+                    <h1>How we <span className="green"> Works </span></h1>
+                    <p>Check out our work process</p>
                 </div>
                 <div className="sub-our-process">
-                <Lottie animationData={Right}  play loop className="lottie-background"></Lottie>
+                   
                     <div className="left-our-process">
-                       
-                        <div className="image-our-process">
 
-                           <div className="our-process-heading one">
-                            <h1>Our process</h1>
-                           </div>
+                        <img src={ServicImg}></img>
 
-
-                           <div className="our-process-heading two">
-                            <h1>Simple, seamless</h1>
-                           </div>
-
-                           <div className="our-process-heading three">
-                            <h1>Streamlined.</h1>
-                           </div>
-
-
-
-
-
-                        </div>
                     </div>
 
-                    
+
 
                     <div className="right-our-process">
 
-                   
+
 
                         <div className="step1">
                             <div className="stepnumber">
@@ -367,7 +350,10 @@ function WeDo() {
 
                             <div className="step-content">
                                 <h1>Choose Service</h1>
-                                <p>Select the right service that fits your needs, whether it's web development, app development, or software solutions.</p>
+                                <p>
+                                     Choose Your service what you really want
+                                </p>
+
                             </div>
                         </div>
 
@@ -380,7 +366,9 @@ function WeDo() {
 
                             <div className="step-content">
                                 <h1>Request a Meeting</h1>
-                                <p>Schedule a meeting with our team to discuss your project needs, goals, and expectations. We’ll guide you through the next steps.</p>
+                                   <p>Afer Choosing an service let's meet</p>
+                                 
+
                             </div>
                         </div>
 
@@ -392,7 +380,8 @@ function WeDo() {
 
                             <div className="step-content">
                                 <h1>Choose Your Plan</h1>
-                                <p>Select a service package that fits your budget and requirements. We offer flexible plans tailored to your needs.</p>
+                                <p>Choose Your plan or what the budjet according to yor need </p>
+
                             </div>
                         </div>
 
@@ -404,7 +393,8 @@ function WeDo() {
 
                             <div className="step-content">
                                 <h1>Let's Develop</h1>
-                                <p>Now it's time to bring your idea to life! Our expert team will start developing your project with precision and efficiency.</p>
+                                 <p>Let's make it happen your project with our best developers</p>
+
                             </div>
                         </div>
 

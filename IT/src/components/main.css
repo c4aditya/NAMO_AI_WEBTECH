@@ -366,9 +366,10 @@
 
 
 /* what we do css start */
-.heading-text h1{
+.heading-text h1 {
     font-size: 2rem;
 }
+
 .we-do-main-top {
 
     padding-top: 50px;
@@ -631,8 +632,6 @@
     width: 85%;
     margin: auto;
     color: white;
-
-
     border: 0.5px solid green;
     border-radius: 10px;
     position: relative;
@@ -642,24 +641,16 @@
 
 .left-our-process {
 
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
-    background-color: #181818;
+
+  display: flex;
+  align-items: center;
+
+}
+.left-our-process img{
+    border-radius: 10px;
+    width: 80%;
 }
 
-.lottie-background {
-    position: absolute;
-    top: 21px;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 5;
-    opacity: 0.5;
-    transform: translateY(0px);
-}
 
 
 .our-process-heading {
@@ -673,20 +664,10 @@
     transition: transform 0.3s ease-in-out;
 }
 
-.one {
-    transform: rotate(10deg);
-    transition: transform 0.3s ease-in-out;
-}
 
-.two {
-    transform: rotate(-20deg);
-}
 
-.our-process-heading:hover {
-    transform: rotate(0deg);
-}
- 
-.main-our-process-content h1{
+
+.main-our-process-content h1 {
     font-size: 2rem;
 }
 
@@ -701,6 +682,7 @@
 .step2,
 .step3,
 .step4 {
+    
     border-radius: 10px;
     border: 1px solid green;
     background-color: #181818;
@@ -708,7 +690,7 @@
     position: relative;
     display: flex;
     gap: 10px;
-    margin-top: 20px;
+    margin-top: 10px;
     padding: 10px;
 
 }
@@ -742,86 +724,91 @@
 
 /* about us section start */
 
-.about-us-section{
+.about-us-section {
     padding-top: 50px;
     background-color: #181818;
     border: 2px solid #181818;
     color: white;
 }
 
-.heading-about-us
-{  
- 
+.heading-about-us {
+
     width: 20%;
-    margin:  auto ;
+    margin: auto;
     text-align: center;
 }
 
-.heading-about-us h1{
+.heading-about-us h1 {
     font-size: 2rem;
 }
 
-.main-about-us{  
+.main-about-us {
     padding: 10px;
-    
+
     align-items: center;
     position: relative;
     width: 80%;
-    margin:5% auto ;
+    margin: 5% auto;
 
     display: grid;
     gap: 50px;
-    grid-template-columns: repeat(2 , 1fr );
+    grid-template-columns: repeat(2, 1fr);
 }
 
-.main-image-about-us{
+.main-image-about-us {
     display: flex;
- 
-    
+
+
     position: relative;
-     z-index: 1;
+    z-index: 1;
 
 }
-.main-image-about-us img{
+
+.main-image-about-us img {
     border-radius: 10px;
     background-color: #181818;
 }
-.dots{
+
+.dots {
     width: 20%;
-    
+
     left: 5%;
     top: 50%;
-    transform: translate(-50% , -5%);
+    transform: translate(-50%, -5%);
     position: absolute;
 }
 
-.main-content-about-us{
- 
+.main-content-about-us {
+
     text-align: justify;
     gap: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.content-about-us p{
+
+.content-about-us p {
     font-size: 1.2rem;
 }
-.readmore-btn{
+
+.readmore-btn {
     border: none;
     border-radius: 10px;
 
     padding: 10px;
     align-items: center;
-    background-color:green;
+    background-color: green;
 }
+
 /* about us section ends  */
 
 /* counter and tursted section */
 
-.counter-value{
+.counter-value {
     border: 1px solid green;
     border-radius: 5px;
 }
+
 .main-tursted-section {
     padding-top: 50px;
     background-color: #181818;
@@ -921,10 +908,11 @@
     color: #667C73;
     font-size: 1rem;
 }
+
 /* our happy clients  */
 
-.ourClients-heading{
-   padding-bottom: 50px;
+.ourClients-heading {
+    padding-bottom: 50px;
     color: white;
     text-align: center;
     font-size: 2rem;
@@ -932,63 +920,236 @@
 
 }
 
-.our-clients{
-    
+.our-clients {
+
     padding-top: 50px;
     border: 1px solid #181818;
     background-color: #181818;
+    padding-bottom: 150px;
 }
 
-.main-our-client{
-   padding: 10px;
+.main-our-client {
+    padding: 10px;
     border-radius: 10px;
     width: 85%;
     margin: auto;
 }
 
-.our-client-images{
+.our-client-images {
     border: 1px solid green;
-  
+
     width: 78%;
 }
 
-.our-client-images img{
+.our-client-images img {
     width: 100%;
 }
 
 
-.main-content{
+.main-content {
     padding: 20px;
 
- display: grid;
- grid-template-columns: repeat(2 , 1fr);
- gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
 
 
 }
+
 .main-content-image-text-client {
     border: 2px solid white;
     display: grid;
- 
-    grid-template-columns: repeat(2 ,50%);
-  
-  }
 
- 
+    grid-template-columns: repeat(2, 50%);
 
-  .left-side-test-content p{
-    
+}
+
+
+
+.left-side-test-content p {
+
     margin-top: 20px;
-  }
+}
 
-  .left-right-buttons-clients{
-    
+.left-right-buttons-clients {
+
     margin-top: 55px;
-  }
-.technology-heading h1{
+}
+
+.technology-heading h1 {
     font-size: 2rem;
 
 }
+
+/* footer section css */
+.lastLine {
+    color: white;
+
+    padding-top: 10px;
+    margin: auto;
+}
+
+.footer {
+
+    background-color: #181818;
+
+
+
+}
+
+.heading-left-side-footer h1{
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.main-footer-section {
+
+    width: 90%;
+    margin: auto;
+    padding-bottom: 5%;
+
+    display: grid;
+    grid-template-columns: 40% 50%;
+    justify-content: space-between;
+}
+
+.left-side-footer {
+
+    color: white;
+    padding: 50px 10px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+}
+
+.right-side-footer {
+
+    color: white;
+    padding: 50px 10px 0px 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.social-medias-links {
+    width: 50%;
+
+
+}
+
+.social-medias-links ul {
+    
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    color: #23DF75;
+
+}
+.contact-us p{
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.contact-us li {
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: .8rem;
+    margin-top: 20px;
+}
+
+.contact-us li .iconscontact {
+    margin-top: 2px;
+    font-size: 1.2rem;
+    color: #23DF75;
+}
+
+.contact-us li .text {
+    font-size: 1.1rem;
+}
+
+.contact-us li .text:hover {
+    border-bottom: 1px solid green;
+
+}
+.footer-line{
+    color: white;
+    width: 70%;
+    margin-top: 20px;
+}
+
+.pages {
+    margin-top: 50px;
+}
+
+.pages p{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.pages li {
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: .8rem;
+    margin-top: 20px;
+}
+
+.pages li .iconscontact {
+    margin-top: 2px;
+    font-size: 1.2rem;
+    color: #23DF75;
+
+}
+
+
+.pages li .text {
+    font-size: 1.1rem;
+}
+
+.copyright{
+    margin-top: 10px;
+    
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lelft-copyright ul {
+    display: flex;
+}
+
+.lelft-copyright ul li {
+    display: flex;
+    color: gray;
+    gap: 5px;
+}
+.lelft-copyright .iconscontact{
+    margin-top: 4px;
+    font-size: 1.4rem;
+}
+
+.lelft-copyright .text{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.mid-copyright p{
+    font-size: 1.3rem;
+    color: gray;
+    font-weight: 500;
+}
+
+.copy-right-line{
+    color:white;
+    margin-top: 20px;
+}
+
+
+
+
+
 
 /* responsive design  */
 @media screen and (max-width : 1050px) {
@@ -1007,7 +1168,7 @@
 
     /* counter  */
 
-   
+
 
 }
 
@@ -1135,50 +1296,51 @@
 
     .services-container {
         display: grid;
-        grid-template-columns: repeat(2 , 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
 
     /* counter  */
 
-    
-   
+
+
     .counter-value {
         margin: auto;
-        
+
         padding: 5px;
         border: 1px solid green;
         border-radius: 5px;
     }
 
 
-.tursted-section {
-    padding: 0px;
-}
+    .tursted-section {
+        padding: 0px;
+    }
 
 
-.tursted-heading{
-   
-    font-size: 20px;
-}
+    .tursted-heading {
 
-.tursted-para{
-    width: 100%;
-    text-align: justify;
-    word-spacing: -5px;
-    font-size: 1.1rem;
-}
+        font-size: 20px;
+    }
 
-.patners h1{
-    font-size: 1rem;
-}
+    .tursted-para {
+        width: 100%;
+        text-align: justify;
+        word-spacing: -5px;
+        font-size: 1.1rem;
+    }
 
-.counter-value h1{
-    font-size: 2rem;
-}
-.counter-value p{
-    font-size: 1rem;
-}
+    .patners h1 {
+        font-size: 1rem;
+    }
+
+    .counter-value h1 {
+        font-size: 2rem;
+    }
+
+    .counter-value p {
+        font-size: 1rem;
+    }
 
 
 
@@ -1289,9 +1451,11 @@
     .posters {
         height: 100%;
     }
+
     .movingarrow {
         font-size: 2rem;
     }
+
     @keyframes slideInRight {
         from {
             opacity: 0;
@@ -1306,147 +1470,157 @@
 
     .services-container {
         display: grid;
-        grid-template-columns: repeat(1 , 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
-   
+
 
     /* counter  */
 
-    .counter-value{
+    .counter-value {
         width: 46%;
         margin-top: 10px;
     }
 
-.main-counter{
-    display: grid;
-    grid-template-columns: repeat(2 , 1fr);
-}
+    .main-counter {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 
 
-.main-counter{
-    display: grid;
-    grid-template-columns: repeat(1 , 1fr);
-}
+    .main-counter {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
 
 
 
-.tursted-section {
-    padding: 0px;
-}
+    .tursted-section {
+        padding: 0px;
+    }
 
 
-.tursted-heading{
-   
-    font-size: 20px;
-}
+    .tursted-heading {
 
-.tursted-para{
-    width: 100%;
-    text-align: justify;
-    word-spacing: -5px;
-    font-size: 1.1rem;
-}
+        font-size: 20px;
+    }
 
-.patners h1{
-    font-size: 1rem;
-}
+    .tursted-para {
+        width: 100%;
+        text-align: justify;
+        word-spacing: -5px;
+        font-size: 1.1rem;
+    }
 
-.counter-value h1{
-    font-size: 1.8rem;
-}
-.counter-value p{
-    font-size: 1rem;
-}
+    .patners h1 {
+        font-size: 1rem;
+    }
+
+    .counter-value h1 {
+        font-size: 1.8rem;
+    }
+
+    .counter-value p {
+        font-size: 1rem;
+    }
 
 
-.we-do-main-containt {
-    padding: 0px;
-   
-    flex-direction: column-reverse;
-}
+    .we-do-main-containt {
+        padding: 0px;
 
-.right-content {
-    width: 90%;
-}
-.left-content {
-    width: 100%;
-}
-.logos-technology{
-    display: grid;
-    grid-template-columns: repeat(2 , 1fr);
-}
-.headind-we-do h1{
-    font-size: 20px;
-}
-.top-para-we-do p{
-    font-size: 1.2rem;
-}
+        flex-direction: column-reverse;
+    }
 
-.discripction-we-do p {
-    font-size: 13px;
-}
+    .right-content {
+        width: 90%;
+    }
 
-.first-card-heading h1 {
-    font-size: 16px;
-}
-.first-card-heading p{
-    font-size: 13px;
-}
-.heading-text h1 {
-    font-size: 20px;
-}
+    .left-content {
+        width: 100%;
+    }
 
-.we-do-main-logo{
-    font-size: 2rem;
-}
+    .logos-technology {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 
-.btn-we-do{
-    padding: 5px;
-    font-size: 1rem;
-}
+    .headind-we-do h1 {
+        font-size: 20px;
+    }
 
-.technology-heading h1{
-    font-size: 1.4rem;
-}
+    .top-para-we-do p {
+        font-size: 1.2rem;
+    }
 
-.technology-heading p {
-    font-size: 13px;
-}
-.logos-technology svg{
-    font-size: 2.7rem;
-}
+    .discripction-we-do p {
+        font-size: 13px;
+    }
 
-.main-our-process-content  h1{
-    font-size: 20px;
-}
+    .first-card-heading h1 {
+        font-size: 16px;
+    }
 
-.main-our-process-content  p{
-    font-size: 13px;
-}
+    .first-card-heading p {
+        font-size: 13px;
+    }
 
-.sub-our-process{
-   
-    display: flex;
-    flex-direction: column;
-}
-.our-process-heading{
-    padding: 5px;
-    font-size: 10px;
-   
-}
+    .heading-text h1 {
+        font-size: 20px;
+    }
 
-.image-our-process{
-    
-    margin:10px auto;
-}
-.step-content h1 {
-    font-size: 1rem;
-}
+    .we-do-main-logo {
+        font-size: 2rem;
+    }
 
-.step-content p{
-    font-size: 13px;
-    text-align: justify;
-}
+    .btn-we-do {
+        padding: 5px;
+        font-size: 1rem;
+    }
+
+    .technology-heading h1 {
+        font-size: 1.4rem;
+    }
+
+    .technology-heading p {
+        font-size: 13px;
+    }
+
+    .logos-technology svg {
+        font-size: 2.7rem;
+    }
+
+    .main-our-process-content h1 {
+        font-size: 20px;
+    }
+
+    .main-our-process-content p {
+        font-size: 13px;
+    }
+
+    .sub-our-process {
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .our-process-heading {
+        padding: 5px;
+        font-size: 10px;
+
+    }
+
+    .image-our-process {
+
+        margin: 10px auto;
+    }
+
+    .step-content h1 {
+        font-size: 1rem;
+    }
+
+    .step-content p {
+        font-size: 13px;
+        text-align: justify;
+    }
 
 
 
@@ -1557,9 +1731,11 @@
     .posters {
         height: 100%;
     }
+
     .movingarrow {
         font-size: 2rem;
     }
+
     @keyframes slideInRight {
         from {
             opacity: 0;
@@ -1574,148 +1750,158 @@
 
     .services-container {
         display: grid;
-        grid-template-columns: repeat(1 , 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
 
     /* counter  */
 
-    .counter-value{
+    .counter-value {
         width: 50%;
         margin-top: 10px;
     }
 
-.main-counter{
-    display: grid;
-    grid-template-columns: repeat(1 , 1fr);
-}
+    .main-counter {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
 
 
-.main-counter{
-    display: grid;
-    grid-template-columns: repeat(1  , 1fr);
-}
+    .main-counter {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
 
 
 
-.tursted-section {
-    padding: 0px;
-}
+    .tursted-section {
+        padding: 0px;
+    }
 
 
-.tursted-heading{
-   
-    font-size: 20px;
-}
+    .tursted-heading {
 
-.tursted-para{
-    width: 100%;
-    text-align: justify;
-    word-spacing: -5px;
-    font-size: 1.1rem;
-}
+        font-size: 20px;
+    }
 
-.patners h1{
-    font-size: 1rem;
-}
+    .tursted-para {
+        width: 100%;
+        text-align: justify;
+        word-spacing: -5px;
+        font-size: 1.1rem;
+    }
 
-.counter-value h1{
-    font-size: 1.8rem;
-}
-.counter-value p{
-    font-size: 1rem;
-}
+    .patners h1 {
+        font-size: 1rem;
+    }
+
+    .counter-value h1 {
+        font-size: 1.8rem;
+    }
+
+    .counter-value p {
+        font-size: 1rem;
+    }
 
 
-/* we do  */
+    /* we do  */
 
-.we-do-main-containt {
-    padding: 0px;
-   
-    flex-direction: column-reverse;
-}
+    .we-do-main-containt {
+        padding: 0px;
 
-.right-content {
-    width: 90%;
-}
-.left-content {
-    width: 100%;
-}
-.logos-technology{
-    display: grid;
-    grid-template-columns: repeat(2 , 1fr);
-}
-.headind-we-do h1{
-    font-size: 20px;
-}
-.top-para-we-do p{
-    font-size: 1.2rem;
-}
+        flex-direction: column-reverse;
+    }
 
-.discripction-we-do p {
-    font-size: 13px;
-}
+    .right-content {
+        width: 90%;
+    }
 
-.first-card-heading h1 {
-    font-size: 16px;
-}
-.first-card-heading p{
-    font-size: 13px;
-}
-.heading-text h1 {
-    font-size: 20px;
-}
+    .left-content {
+        width: 100%;
+    }
 
-.we-do-main-logo{
-    font-size: 2rem;
-}
+    .logos-technology {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 
-.btn-we-do{
-    padding: 5px;
-    font-size: 1rem;
-}
+    .headind-we-do h1 {
+        font-size: 20px;
+    }
 
-.technology-heading h1{
-    font-size: 1.4rem;
-}
+    .top-para-we-do p {
+        font-size: 1.2rem;
+    }
 
-.technology-heading p {
-    font-size: 13px;
-}
-.logos-technology svg{
-    font-size: 2.7rem;
-}
+    .discripction-we-do p {
+        font-size: 13px;
+    }
 
-.main-our-process-content  h1{
-    font-size: 20px;
-}
+    .first-card-heading h1 {
+        font-size: 16px;
+    }
 
-.main-our-process-content  p{
-    font-size: 13px;
-}
+    .first-card-heading p {
+        font-size: 13px;
+    }
 
-.sub-our-process{
-   
-    display: flex;
-    flex-direction: column;
-}
-.our-process-heading{
-    padding: 5px;
-    font-size: 10px;
-   
-}
+    .heading-text h1 {
+        font-size: 20px;
+    }
 
-.image-our-process{
-    
-    margin:10px auto;
-}
-.step-content h1 {
-    font-size: 1rem;
-}
+    .we-do-main-logo {
+        font-size: 2rem;
+    }
 
-.step-content p{
-    font-size: 13px;
-    text-align: justify;
-}
+    .btn-we-do {
+        padding: 5px;
+        font-size: 1rem;
+    }
+
+    .technology-heading h1 {
+        font-size: 1.4rem;
+    }
+
+    .technology-heading p {
+        font-size: 13px;
+    }
+
+    .logos-technology svg {
+        font-size: 2.7rem;
+    }
+
+    .main-our-process-content h1 {
+        font-size: 20px;
+    }
+
+    .main-our-process-content p {
+        font-size: 13px;
+    }
+
+    .sub-our-process {
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .our-process-heading {
+        padding: 5px;
+        font-size: 10px;
+
+    }
+
+    .image-our-process {
+
+        margin: 10px auto;
+    }
+
+    .step-content h1 {
+        font-size: 1rem;
+    }
+
+    .step-content p {
+        font-size: 13px;
+        text-align: justify;
+    }
 
 
 
@@ -1827,9 +2013,11 @@
     .posters {
         height: 100%;
     }
+
     .movingarrow {
         font-size: 2rem;
     }
+
     @keyframes slideInRight {
         from {
             opacity: 0;
@@ -1844,141 +2032,152 @@
 
     .services-container {
         display: grid;
-        grid-template-columns: repeat(1 , 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
-/* counter  */
 
-.counter-value{
-    margin: auto;
-    width: 60%;
-    margin-top: 10px;
-}
+    /* counter  */
 
-.main-counter{
-    display: grid;
-    grid-template-columns: repeat(1 , 1fr);
-}
+    .counter-value {
+        margin: auto;
+        width: 60%;
+        margin-top: 10px;
+    }
 
-
-
-.tursted-section {
-    padding: 0px;
-}
+    .main-counter {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
 
 
-.tursted-heading{
-   
-    font-size: 20px;
-}
 
-.tursted-para{
-    width: 100%;
-    text-align: justify;
-    word-spacing: -5px;
-    font-size: 1.1rem;
-}
-
-.patners h1{
-    font-size: 1rem;
-}
-
-.counter-value h1{
-    font-size: 1.5rem;
-}
-.counter-value p{
-    font-size: 1rem;
-}
+    .tursted-section {
+        padding: 0px;
+    }
 
 
-/* what we do section  */
+    .tursted-heading {
 
-.we-do-main-containt {
-    padding: 0px;
-   
-    flex-direction: column-reverse;
-}
+        font-size: 20px;
+    }
 
-.right-content {
-    width: 90%;
-}
-.left-content {
-    width: 100%;
-}
-.logos-technology{
-    display: grid;
-    grid-template-columns: repeat(2 , 1fr);
-}
-.headind-we-do h1{
-    font-size: 20px;
-}
-.top-para-we-do p{
-    font-size: 1.2rem;
-}
+    .tursted-para {
+        width: 100%;
+        text-align: justify;
+        word-spacing: -5px;
+        font-size: 1.1rem;
+    }
 
-.discripction-we-do p {
-    font-size: 13px;
-}
+    .patners h1 {
+        font-size: 1rem;
+    }
 
-.first-card-heading h1 {
-    font-size: 16px;
-}
-.first-card-heading p{
-    font-size: 13px;
-}
-.heading-text h1 {
-    font-size: 20px;
-}
+    .counter-value h1 {
+        font-size: 1.5rem;
+    }
 
-.we-do-main-logo{
-    font-size: 2rem;
-}
+    .counter-value p {
+        font-size: 1rem;
+    }
 
-.btn-we-do{
-    padding: 5px;
-    font-size: 1rem;
-}
 
-.technology-heading h1{
-    font-size: 1.4rem;
-}
+    /* what we do section  */
 
-.technology-heading p {
-    font-size: 13px;
-}
-.logos-technology svg{
-    font-size: 2.7rem;
-}
+    .we-do-main-containt {
+        padding: 0px;
 
-.main-our-process-content  h1{
-    font-size: 20px;
-}
+        flex-direction: column-reverse;
+    }
 
-.main-our-process-content  p{
-    font-size: 13px;
-}
+    .right-content {
+        width: 90%;
+    }
 
-.sub-our-process{
-   
-    display: flex;
-    flex-direction: column;
-}
-.our-process-heading{
-    padding: 5px;
-    font-size: 10px;
-   
-}
+    .left-content {
+        width: 100%;
+    }
 
-.image-our-process{
-    
-    margin:10px auto;
-}
-.step-content h1 {
-    font-size: 1rem;
-}
+    .logos-technology {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 
-.step-content p{
-    font-size: 13px;
-    text-align: justify;
-}
+    .headind-we-do h1 {
+        font-size: 20px;
+    }
+
+    .top-para-we-do p {
+        font-size: 1.2rem;
+    }
+
+    .discripction-we-do p {
+        font-size: 13px;
+    }
+
+    .first-card-heading h1 {
+        font-size: 16px;
+    }
+
+    .first-card-heading p {
+        font-size: 13px;
+    }
+
+    .heading-text h1 {
+        font-size: 20px;
+    }
+
+    .we-do-main-logo {
+        font-size: 2rem;
+    }
+
+    .btn-we-do {
+        padding: 5px;
+        font-size: 1rem;
+    }
+
+    .technology-heading h1 {
+        font-size: 1.4rem;
+    }
+
+    .technology-heading p {
+        font-size: 13px;
+    }
+
+    .logos-technology svg {
+        font-size: 2.7rem;
+    }
+
+    .main-our-process-content h1 {
+        font-size: 20px;
+    }
+
+    .main-our-process-content p {
+        font-size: 13px;
+    }
+
+    .sub-our-process {
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .our-process-heading {
+        padding: 5px;
+        font-size: 10px;
+
+    }
+
+    .image-our-process {
+
+        margin: 10px auto;
+    }
+
+    .step-content h1 {
+        font-size: 1rem;
+    }
+
+    .step-content p {
+        font-size: 13px;
+        text-align: justify;
+    }
 
 }
