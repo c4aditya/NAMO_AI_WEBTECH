@@ -130,21 +130,148 @@ function Industryes(){
 
         <div className="our-customers">
             <div className="our-custorme-heading">
-                <h1>Loved by 200 + customer in India</h1>
+                <h1 className="mh">Loved by 200 + customer in <span className="green" >India .</span></h1>
 
             </div>
 
             <div className="our-custromes-images">
+                <div className="content-width">
                 <div className="images-with-link">
                     <a href="https://google.com">
                         <img src="https://www.shadowinfosystem.com/static/media/gctc.1393918868943f174a53.jpg"></img>
-
-
                     </a>
-
                     <p>Gotab</p>
-
                 </div>
+
+
+                <div className="images-with-link">
+                    <a href="https://google.com">
+                        <img src="https://www.shadowinfosystem.com/static/media/gctc.1393918868943f174a53.jpg"></img>
+                    </a>
+                    <p>Gotab</p>
+                </div>
+
+
+                <div className="images-with-link">
+                    <a href="https://google.com">
+                        <img src="https://www.shadowinfosystem.com/static/media/gctc.1393918868943f174a53.jpg"></img>
+                    </a>
+                    <p>Gotab</p>
+                </div>
+
+
+                <div className="images-with-link">
+                    <a href="https://google.com">
+                        <img src="https://www.shadowinfosystem.com/static/media/gctc.1393918868943f174a53.jpg"></img>
+                    </a>
+                    <p>Gotab</p>
+                </div>
+
+
+                <div className="images-with-link">
+                    <a href="https://google.com">
+                        <img src="https://www.shadowinfosystem.com/static/media/gctc.1393918868943f174a53.jpg"></img>
+                    </a>
+                    <p>Gotab</p>
+                </div>
+
+                <div className="images-with-link">
+                    <a href="https://google.com">
+                        <img src="https://www.shadowinfosystem.com/static/media/gctc.1393918868943f174a53.jpg"></img>
+                    </a>
+                    <p>Gotab</p>
+                </div>
+
+
+                <div className="images-with-link">
+                    <a href="https://google.com">
+                        <img src="https://www.shadowinfosystem.com/static/media/gctc.1393918868943f174a53.jpg"></img>
+                    </a>
+                    <p>Gotab</p>
+                </div>
+
+                <div className="images-with-link">
+                    <a href="https://google.com">
+                        <img src="https://www.shadowinfosystem.com/static/media/gctc.1393918868943f174a53.jpg"></img>
+                    </a>
+                    <p>Gotab</p>
+                </div>
+
+
+                <div className="images-with-link">
+                    <a href="https://google.com">
+                        <img src="https://www.shadowinfosystem.com/static/media/gctc.1393918868943f174a53.jpg"></img>
+                    </a>
+                    <p>Gotab</p>
+                </div>
+
+
+                <div className="images-with-link">
+                    <a href="https://google.com">
+                        <img src="https://www.shadowinfosystem.com/static/media/gctc.1393918868943f174a53.jpg"></img>
+                    </a>
+                    <p>Gotab</p>
+                </div>
+
+
+                <div className="images-with-link">
+                    <a href="https://google.com">
+                        <img src="https://www.shadowinfosystem.com/static/media/gctc.1393918868943f174a53.jpg"></img>
+                    </a>
+                    <p>Gotab</p>
+                </div>
+
+                <div className="images-with-link">
+                    <a href="https://google.com">
+                        <img src="https://www.shadowinfosystem.com/static/media/gctc.1393918868943f174a53.jpg"></img>
+                    </a>
+                    <p>Gotab</p>
+                </div>
+                <div className="images-with-link">
+                    <a href="https://google.com">
+                        <img src="https://www.shadowinfosystem.com/static/media/gctc.1393918868943f174a53.jpg"></img>
+                    </a>
+                    <p>Gotab</p>
+                </div>
+
+                <div className="images-with-link">
+                    <a href="https://google.com">
+                        <img src="https://www.shadowinfosystem.com/static/media/gctc.1393918868943f174a53.jpg"></img>
+                    </a>
+                    <p>Gotab</p>
+                </div>
+
+                <div className="images-with-link">
+                    <a href="https://google.com">
+                        <img src="https://www.shadowinfosystem.com/static/media/gctc.1393918868943f174a53.jpg"></img>
+                    </a>
+                    <p>Gotab</p>
+                </div>
+
+                <div className="images-with-link">
+                    <a href="https://google.com">
+                        <img src="https://www.shadowinfosystem.com/static/media/gctc.1393918868943f174a53.jpg"></img>
+                    </a>
+                    <p>Gotab</p>
+                </div>
+
+
+                <div className="images-with-link">
+                    <a href="https://google.com">
+                        <img src="https://www.shadowinfosystem.com/static/media/gctc.1393918868943f174a53.jpg"></img>
+                    </a>
+                    <p>Gotab</p>
+                </div>
+
+                <div className="images-with-link">
+                    <a href="https://google.com">
+                        <img src="https://www.shadowinfosystem.com/static/media/gctc.1393918868943f174a53.jpg"></img>
+                    </a>
+                    <p>Gotab</p>
+                </div>
+                </div>
+
+                
             </div>
 
         </div>

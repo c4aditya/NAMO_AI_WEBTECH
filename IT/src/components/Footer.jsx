@@ -42,6 +42,23 @@ function Footer() {
                     </div>
                     <div className="right-main-footer">
                         <div className="right-side-footer">
+
+                            <div className="pages">
+
+                                <ul>
+                                    <p className="green"> Our Pages</p>
+                                    <hr className="footer-line"></hr>
+                                    <li><span className="iconscontact"><FaHome /></span> <sapn className="text"> Home </sapn></li>
+                                    <li><span className="iconscontact"><IoMdContact /></span> <sapn className="text">Contact Us </sapn></li>
+                                    <li><span className="iconscontact">< FaNetworkWired /></span> <sapn className="text">About Us </sapn></li>
+                                    <li><span className="iconscontact">< MdOutlineMiscellaneousServices /></span> <sapn className="text"> Our Services</sapn></li>
+                                    <li><span className="iconscontact">< FaTasks /></span> <sapn className="text">Our Portfolio </sapn></li>
+
+
+
+
+                                </ul>
+                            </div>
                             <div className="contact-us">
                                 <ul>
                                     <p className="green">Contact us Info</p>
@@ -67,40 +84,22 @@ function Footer() {
                             </div>
 
 
-                            <div className="pages">
 
-                                <ul>
-                                    <p className="green"> Our Pages</p>
-                                    <hr className="footer-line"></hr>
-                                    <li><span className="iconscontact"><FaHome /></span> <sapn className="text"> Home </sapn></li>
-                                    <li><span className="iconscontact"><IoMdContact /></span> <sapn className="text">Contact Us </sapn></li>
-                                    <li><span className="iconscontact">< FaNetworkWired /></span> <sapn className="text">About Us </sapn></li>
-                                    <li><span className="iconscontact">< MdOutlineMiscellaneousServices /></span> <sapn className="text"> Our Services</sapn></li>
-                                    <li><span className="iconscontact">< FaTasks /></span> <sapn className="text">Our Portfolio </sapn></li>
-
-
-
-
-                                </ul>
-                            </div>
                         </div>
-                        <hr className="copy-right-line"></hr>
-                        <div className="copyright">
-                         <div className="lelft-copyright">
-                            <ul>
-                         <li><span className="iconscontact">< FaRegCopyright /></span> <sapn className="text"> 2025 all Copy rigth recived</sapn></li>
-                             </ul>
-                         </div>
-
-                         <div className="mid-copyright">
-                            <p>Security</p>
-                            
-
-                         </div>
-                      </div>
+              
                     </div>
                 </div>
             </section>
+           
+                        <div className="copyright">
+                            <div className="lelft-copyright">
+                                <ul>
+                                    <li><span className="iconscontact">< FaRegCopyright /></span> <sapn className="text"> 2025 all Copyrigth recived</sapn></li>
+                                </ul>
+                            </div>
+
+                    
+                        </div>
         </>
     )
 }
