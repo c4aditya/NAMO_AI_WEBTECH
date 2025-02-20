@@ -251,6 +251,7 @@
 
 .tursted-heading {
     font-size: 2rem;
+    font-weight: 700;
 }
 
 
@@ -269,6 +270,7 @@
 
 }
 
+/* tursted section end  */
 
 /* services css */
 /* Services Section */
@@ -294,10 +296,12 @@
 .main-services-container {
     background-color: #181818;
 }
-
+.green{
+    color:#23DF75;
+}
 .services-container {
     margin: auto;
-    width: 80%;
+    width: 95%;
     display: flex;
     gap: 20px;
     padding: 30px;
@@ -365,251 +369,7 @@
 }
 
 
-/* what we do css start */
-.heading-text h1 {
-    font-size: 2rem;
-}
 
-.we-do-main-top {
-
-    padding-top: 50px;
-    background-color: #181818;
-}
-
-
-.we-do-main {
-    border: 1px solid green;
-    border-radius: 10px;
-    position: relative;
-    background-color: #181818;
-    margin-top: 20px;
-    width: 80%;
-    margin: auto;
-    padding: 20px;
-
-}
-
-
-
-.we-do-main-logo {
-    right: 0px;
-    top: -45px;
-    transform: translateX(0px) translateY(0px);
-    padding: 0px;
-
-    width: 100%;
-    position: absolute;
-    font-size: 4rem;
-    width: fit-content;
-    color: #23DF75;
-    z-index: 1000;
-
-
-}
-
-.we-do-main-containt {
-
-    display: flex;
-    justify-content: space-between;
-}
-
-.left-content {
-
-    background-color: #181818;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-
-
-
-
-.btn-we-do {
-    border: none;
-    padding: 10px;
-    border-radius: 5px;
-    background-color: #23DF75;
-    color: white;
-    font-size: 1.2rem;
-}
-
-.top-para-we-do p {
-    padding: 10px;
-    font-weight: 800;
-    font-size: 1.4rem;
-    color: #23DF75;
-}
-
-.button-we-do {
-    padding: 10px;
-}
-
-.discripction-we-do p {
-    color: #6B8379;
-    padding: 10px;
-    text-align: justify;
-}
-
-.headind-we-do h1 {
-    color: white;
-    padding: 10px;
-}
-
-.right-content {
-    background-color: #181818;
-    color: white;
-    width: 40%;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    overflow: hidden;
-    height: 350px;
-    position: relative;
-}
-
-.first-card {
-    position: relative;
-    animation: moveUp linear infinite;
-    animation-duration: 10s;
-    /* Adjust scrolling speed */
-}
-
-@keyframes moveUp {
-    0% {
-        transform: translateY(0);
-    }
-
-    100% {
-        transform: translateY(-100%);
-    }
-}
-
-.logo-we-do img {
-    display: block;
-    border: 1px solid #23DF75;
-    padding: 10px;
-    border-radius: 50%;
-    height: auto;
-    max-width: 30px;
-
-}
-
-.first-card-heading h1 {
-    font-size: 1.4rem;
-    margin-top: 10px;
-}
-
-.first-card-heading p {
-    margin-top: 10px;
-    color: #6B8379;
-}
-
-.underline-color {
-    border: 1px solid green;
-    margin-top: 20px;
-}
-
-.heading-text h1 {
-    margin-top: 50px;
-    color: white;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-
-
-/* mobile development */
-
-.mobile {
-    border: 1px solid green;
-    margin-top: 100px;
-    border-radius: 10px;
-
-}
-
-.mobile-left {
-    width: 43%;
-}
-
-.mobile-img {
-    bottom: 0px;
-    left: 0px;
-    height: fit-content;
-    padding: 0px;
-    background-color: #181818;
-}
-
-
-/* digital markting */
-
-.digital-markting {
-    margin-top: 100px;
-}
-
-
-/* technology we use css */
-
-.technologys-section {
-    color: white;
-
-    margin-top: 100px;
-}
-
-.main-technologys-section {
-    width: 85%;
-
-    margin: auto;
-    padding: 10px;
-    text-align: center;
-
-}
-
-.technology-heading p {
-    margin-top: 20px;
-    color: #6B8379;
-}
-
-.logos-technology {
-    display: flex;
-    gap: 20px;
-
-    justify-content: space-between;
-    padding: 20px;
-    margin-top: 20px;
-
-}
-
-.logos-technology svg {
-    font-size: 3.5rem;
-    color: white;
-}
-
-.logo p {
-
-    color: white;
-    font-size: 1rem;
-    display: none;
-    position: absolute;
-
-
-}
-
-.logos-technology svg:hover {
-
-    color: #6B8379;
-}
-
-.logo:hover p {
-    display: block;
-    color: #23DF75;
-}
-
-.green {
-    color: #23DF75;
-}
 
 /* choose our service css start */
 .main-our-process {
@@ -653,30 +413,16 @@
 
 
 
-.our-process-heading {
-    border: 1px solid green;
-    border-radius: 5px;
-    background-color: white;
-    z-index: 999;
-    color: black;
-    padding: 10px;
-    transform: rotate(-5deg);
-    transition: transform 0.3s ease-in-out;
-}
 
 
 
 
 .main-our-process-content h1 {
     font-size: 2rem;
+    font-weight: 700;
 }
 
-.image-our-process {
-    gap: 20px;
-    display: flex;
 
-    flex-direction: column;
-}
 
 .step1,
 .step2,
@@ -689,6 +435,7 @@
     z-index: 10;
     position: relative;
     display: flex;
+    
     gap: 10px;
     margin-top: 10px;
     padding: 10px;
@@ -700,9 +447,18 @@
 
     border: 1px solid green;
     height: fit-content;
-    font-size: 1rem;
+    margin-top: 5px;
     border-radius: 100%;
-    padding: 10px;
+
+}
+.main-our-process-content p{
+width: 80%;
+font-size: 1rem;
+margin: 20px auto;
+color: #6B8379;
+}
+.stepnumber svg{
+    font-size: 1.2rem;
 }
 
 .step-content {
@@ -712,7 +468,8 @@
 }
 
 .step-content h1 {
-    font-size: 1.5rem;
+    font-weight: 700;
+    font-size: 1.3rem;
     color: #23DF75;
 }
 
@@ -721,6 +478,9 @@
 }
 
 /* chose your service css end  */
+
+
+
 
 /* about us section start */
 
@@ -740,6 +500,7 @@
 
 .heading-about-us h1 {
     font-size: 2rem;
+    font-weight: 700;
 }
 
 .main-about-us {
@@ -834,18 +595,11 @@
 
 
     width: 80%;
-    font-size: 1.3rem;
+    font-size: 1rem;
     margin: 20px auto;
     color: #6B8379;
 }
 
-.patners-images {
-    /* width: 80%; */
-    margin: auto;
-    overflow: hidden;
-    white-space: nowrap;
-    display: flex;
-}
 
 .patners-wrapper {
 
@@ -863,24 +617,8 @@
     font-size: 1.5rem;
 }
 
-@keyframes scroll {
-    from {
-        transform: translateX(10%);
-    }
 
-    to {
-        transform: translateX(-100%);
-    }
-}
 
-.patners {
-
-    min-width: 100px;
-
-    padding: 10px 20px;
-    border-radius: 8px;
-    text-align: center;
-}
 
 .top-counter {
     padding: 10px;
@@ -909,6 +647,105 @@
     font-size: 1rem;
 }
 
+/* industries-section css start */
+
+.main-class-our-industryes{
+    padding-top: 10%;
+    background-color: #181818;
+    color: white;
+
+} 
+
+ .mh{
+    padding-bottom: 50px;
+    width: 50%;
+    font-weight: 700;
+    margin: auto;
+    
+    font-size: 2rem;
+    text-align: center;
+}
+
+.main-our-industary{
+    border-radius: 10px;
+    border: 1px solid green;
+    width: 95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns:50% 50%;
+
+}
+
+.content-our-industryes{
+    justify-content: space-between;
+    padding: 20px;
+   
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.btn-indus{
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding: 5px;
+    border-radius: 5px;
+    width: 25%;
+    border: 1px solid green;
+    background-color: #008000;
+}
+
+
+.heading-industryes h1{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.para-industryes{
+    width: 90%;
+    text-align: justify;
+}
+
+.para-industryes p{
+    font-size: 1.2rem;
+    color: #667C73;
+}
+
+.images-our-industryes{
+
+    padding: 10px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.image-text-industryes{
+    width: 85%;
+    gap: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+
+
+}
+
+.image-text-industryes:hover{
+    transform: scale(1.1);
+}
+
+
+
+.image-text-industryes img{
+    width: 30%;
+}
+
+
+/* industries-section css end */
+
 /* our happy clients  */
 
 .ourClients-heading {
@@ -935,15 +772,8 @@
     margin: auto;
 }
 
-.our-client-images {
-    border: 1px solid green;
 
-    width: 78%;
-}
 
-.our-client-images img {
-    width: 100%;
-}
 
 
 .main-content {
@@ -966,25 +796,14 @@
 
 
 
-.left-side-test-content p {
 
-    margin-top: 20px;
-}
 
-.left-right-buttons-clients {
 
-    margin-top: 55px;
-}
 
-.technology-heading h1 {
-    font-size: 2rem;
-
-}
 
 /* footer section css */
 .lastLine {
     color: white;
-
     padding-top: 10px;
     margin: auto;
 }
@@ -1098,7 +917,7 @@
 
 .pages li .iconscontact {
     margin-top: 2px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #23DF75;
 
 }

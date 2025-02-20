@@ -38,6 +38,15 @@ const services = [
     icon: <FaBrain className="icon pink" />,
     bgColor: "pink-bg",
   },
+
+  {
+    id: 4,
+    title: "Softwere Dev",
+    description:
+      "Enhance your apps with AI, automation, and machine learning to drive efficiency.",
+    icon: <FaLaptopCode className="icon pink" />,
+    bgColor: "pink-bg",
+  },
 ];
 
 const Services = () => {

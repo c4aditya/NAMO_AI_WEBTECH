@@ -68,51 +68,7 @@ function Counter() {
         expertise and commitment to excellence.</p>
     </div>
 
-    <div className="patners-images">
-      <div className="patners-wrapper">
-        <div className="patners">
-          <h1>Namo Airways</h1>
-        </div>
-        <div className="patners">
-          <h1>Namo Airways</h1>
-        </div>
-        <div className="patners">
-          <h1>Namo Airways</h1>
-        </div>
-        <div className="patners">
-          <h1>Namo Airways</h1>
-        </div>
-        <div className="patners">
-          <h1>Namo Airways</h1>
-        </div>
-
-        <div className="patners">
-          <h1>Namo Airways</h1>
-        </div>
-
-        <div className="patners">
-          <h1>Namo Airways</h1>
-        </div>
-
-        <div className="patners">
-          <h1>Namo Airways</h1>
-        </div>
-
-        <div className="patners">
-          <h1>Namo Airways</h1>
-        </div>
-
-
-        <div className="patners">
-          <h1>Namo Airways</h1>
-        </div>
-
-        <div className="patners">
-          <h1>Namo Airways</h1>
-        </div>
-        
-      </div>
-    </div>
+   
   
 
       <div className="top-counter">
