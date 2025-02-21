@@ -54,13 +54,7 @@ const Services = () => {
     <>
    
     <div className="main-services-container">
-    {/* <div className="desing-develop-deploy">
-      <ul>
-        <li>Design </li>
-        <li>Develop</li>
-        <li>Deploy</li>
-      </ul>
-    </div> */}
+  
     <div className="services-container">
       {services.map((service) => (
         <div key={service.id} className={`service-card ${service.bgColor}`}>

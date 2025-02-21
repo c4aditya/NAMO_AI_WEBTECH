@@ -205,13 +205,13 @@
 
 .title.animate p {
 
-    color: #6B8379;
-
+    color: white;
+    word-break: break-all;
     width: 90%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.3rem;
     line-height: 2rem;
-
+    word-spacing: 2px;
     animation: slideInLeft 0.8s ease-in-out 0.2s forwards;
 }
 
@@ -341,7 +341,7 @@
 
 .service-description {
     font-size: 1em;
-    color: #6B8379;
+    color:white;
 
     margin-top: 10px;
 }
@@ -455,7 +455,7 @@
 width: 80%;
 font-size: 1rem;
 margin: 20px auto;
-color: #6B8379;
+color: white;
 }
 .stepnumber svg{
     font-size: 1.2rem;
@@ -465,6 +465,7 @@ color: #6B8379;
     display: flex;
     flex-direction: column;
     gap: 10px;
+    word-break: break-all;
 }
 
 .step-content h1 {
@@ -531,6 +532,7 @@ color: #6B8379;
 }
 
 .dots {
+    display: block;
     width: 20%;
     left: 5%;
     top: 50%;
@@ -546,21 +548,34 @@ color: #6B8379;
     flex-direction: column;
     justify-content: space-between;
 }
+
+
 .content-about-us h1{
-    font-size: 2rem;
+    font-size: 1.5rem;
+}
+
+.content-about-us .co-name{
+    font-size: 1.5rem;
+    color: #23DF75;
+    font-weight: 700;
+
 }
 .content-about-us p {
-    color: #bacec5;
+    margin-top: 5px;
+    color: white;
+    word-break: break-all;
+    word-spacing: 2px;
     font-size: 1.2rem;
 }
 
 .readmore-btn {
     border: none;
+    font-weight: 700;
     border-radius: 10px;
-
+    width: 25%;
     padding: 10px;
     align-items: center;
-    background-color: green;
+    background-color:#23DF75;
 }
 
 /* about us section ends  */
@@ -598,8 +613,10 @@ color: #6B8379;
 
     width: 80%;
     font-size: 1rem;
+    word-break: break-all;
+    
     margin: 20px auto;
-    color: #6B8379;
+    color:white ;
 }
 
 
@@ -618,10 +635,6 @@ color: #6B8379;
 .patners h1 {
     font-size: 1.5rem;
 }
-
-
-
-
 .top-counter {
     padding: 10px;
     margin-top: 50px;
@@ -668,6 +681,10 @@ color: #6B8379;
     text-align: center;
 }
 
+.btn-industry{
+    width: 100%;
+}
+
 .main-our-industary{
     border-radius: 10px;
     border: 1px solid green;
@@ -708,8 +725,9 @@ color: #6B8379;
 }
 
 .para-industryes p{
+    word-break: break-all;
     font-size: 1.2rem;
-    color: #667C73;
+    color: white;
 }
 
 .images-our-industryes{
@@ -788,10 +806,13 @@ color: #6B8379;
 
 .left-side-test-content{
     
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
+
+
 
 
 
@@ -804,9 +825,6 @@ color: #6B8379;
 
    
 }
-
-
-
 
 .content-width{
     padding: 20px;
@@ -898,8 +916,6 @@ color: #6B8379;
 
 .social-medias-links {
     width: 50%;
-
-
 }
 
 .social-medias-links ul {
@@ -1009,7 +1025,9 @@ color: #6B8379;
 
 /* responsive design  */
 @media screen and (max-width : 1050px) {
-
+    .nav-links {
+        width: 70%;
+    }
     .animation svg {
         width: 24rem !important;
     }
@@ -1021,8 +1039,107 @@ color: #6B8379;
     .title.animate h1 {
         width: 100%;
     }
+    .title.animate p{
+        font-size: 1.4rem;
+    }
+    .services-container{
+        display: grid;
+        grid-template-columns: repeat(3 , 1fr);
+    }
 
+    /* about us section */
+
+  
+    .heading-about-us{
+       
+        width: 100%;
+    }
+
+    .heading-about-us h1{
+        font-size: 20px;
+    }
+    .main-about-us{
+        width: 90%;
+       
+        grid-template-columns:repeat(1 ,1fr)
+    }
+
+    .content-about-us .co-name{
+        font-size: 20px;
+    }
+
+    .content-about-us p{
+        font-size: 1em;
+    }
+
+    
+     .readmore-btn{
+        width: 100%;
+        padding: 5px;
+     }
     /* counter  */
+
+
+    
+
+    .heading-about-us h1{
+        font-size: 2rem;
+    }
+
+    .content-about-us h1{
+        font-size: 2rem;
+
+    }
+
+    .content-about-us .co-name{
+        font-size: 2rem;
+
+    }
+    .content-about-us p{
+        font-size: 1.5rem;
+    }
+
+    /* our secvices  */
+
+    .sub-our-process{
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+    }
+
+    .step-content h1{
+        font-size: 1.9rem;
+    }
+
+    .step-content p {
+        font-size: 1.4rem;
+    }
+
+
+    
+    .sub-our-process{
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+    }
+    .main-our-industary {
+        
+        grid-template-columns: repeat(1 ,1fr);
+    }
+    
+    .images-our-industryes 
+    {   justify-items: center;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .content-our-industryes{
+        text-align: center;
+        align-items: center;
+    }
+
+    .content-width{
+        grid-template-columns: repeat(5 , 1fr);
+    }
+
+
 
 
 
@@ -1041,7 +1158,6 @@ color: #6B8379;
         padding: 10px;
 
     }
-
     .menu-btn {
         display: inline;
     }
@@ -1049,7 +1165,6 @@ color: #6B8379;
     .nav-links {
         display: none;
     }
-
 
     .logo {
         font-size: 16px;
@@ -1076,7 +1191,7 @@ color: #6B8379;
     }
 
     .title.animate p {
-        line-height: 2.5rem;
+        line-height: 2rem;
         text-align: justify;
         width: 100%;
         margin: auto;
@@ -1118,7 +1233,7 @@ color: #6B8379;
     .animation svg {
 
 
-        width: 60% !important;
+        width: 100% !important;
     }
 
     .increment {
@@ -1154,7 +1269,9 @@ color: #6B8379;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
-
+    .content-about-us p{
+        font-size: 1rem;
+    }
 
     /* counter  */
 
@@ -1168,7 +1285,9 @@ color: #6B8379;
         border-radius: 5px;
     }
 
-
+    .dots{
+        display: none;
+    }
     .tursted-section {
         padding: 0px;
     }
@@ -1198,6 +1317,25 @@ color: #6B8379;
         font-size: 1rem;
     }
 
+    /* or process css */
+
+    .sub-our-process{
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+    }
+    .main-our-industary {
+        
+        grid-template-columns: repeat(1 ,1fr);
+    }
+    
+    .images-our-industryes 
+    {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .content-width{
+        grid-template-columns: repeat(4, 1fr);
+    }
 
 
 
@@ -1288,7 +1426,7 @@ color: #6B8379;
     .animation svg {
 
 
-        width: 80% !important;
+        width: 100% !important;
     }
 
     .increment {
@@ -1300,7 +1438,9 @@ color: #6B8379;
     }
 
     .poster {
+     
         justify-items: center;
+        align-items: center;
 
     }
 
@@ -1328,7 +1468,9 @@ color: #6B8379;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
-
+    .content-about-us p{
+        font-size: 1rem;
+    }
 
     /* counter  */
 
@@ -1370,6 +1512,15 @@ color: #6B8379;
     .patners h1 {
         font-size: 1rem;
     }
+
+    .content-about-us h1{
+        font-size: 16px;
+    }
+
+    .content-about-us .co-name{
+        font-size: 20px;
+    }
+
 
     .counter-value h1 {
         font-size: 1.8rem;
@@ -1478,7 +1629,82 @@ color: #6B8379;
         text-align: justify;
     }
 
+  /* industries section */
 
+  .main-our-industary {
+        
+    grid-template-columns: repeat(1 ,1fr);
+}
+
+.images-our-industryes 
+{
+    grid-template-columns: repeat(2 , 1fr);
+}
+
+.content-width{
+    grid-template-columns: repeat(2 , 1fr);
+}
+.heading-industryes h1{
+    font-size: 1rem;
+}
+
+.mh {
+    width: 90%;
+    font-size: 1.4rem;
+}
+
+.btn-indus{
+    width: 100%;
+}
+
+/* our client section  */
+.main-our-client{
+    padding: 0px;
+}
+.main-content{
+ grid-template-columns: repeat(1 , 1fr);
+}
+.left-side-test-content{
+    justify-items: center;
+}
+
+.left-right-buttons-clients{
+  
+     margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.left-side-test-content p{
+   
+    text-align: center;
+    width: 100%;
+}
+
+.left-side-test-content h3{
+    text-align: center;
+}
+
+/* footer section */
+
+.main-footer-section{
+  
+    display: grid;
+    grid-template-columns: repeat(1 ,1fr);
+}
+.heading-left-side-footer h1{
+   
+    font-size: 1.4rem;
+}
+.content-left-side-footer{
+  
+    text-align: justify;
+    word-break: break-all;
+}
+.right-side-footer{
+    margin-top: 20px;
+    grid-template-columns: repeat(1 ,1fr);
+}
 
 }
 
@@ -1603,12 +1829,22 @@ color: #6B8379;
             transform: translateX(0);
         }
     }
-
+/* about us  */
     .services-container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
 
+    .content-about-us h1{
+        font-size: 16px;
+    }
+
+    .content-about-us .co-name{
+        font-size: 20px;
+    }
+    .content-about-us p{
+        font-size: 1rem;
+    }
     /* counter  */
 
     .counter-value {
@@ -1727,17 +1963,15 @@ color: #6B8379;
 
     .main-our-process-content h1 {
         font-size: 20px;
+        width: 80%;
+        margin: auto;
     }
 
     .main-our-process-content p {
         font-size: 13px;
     }
 
-    .sub-our-process {
-
-        display: flex;
-        flex-direction: column;
-    }
+    
 
     .our-process-heading {
         padding: 5px;
@@ -1757,6 +1991,35 @@ color: #6B8379;
     .step-content p {
         font-size: 13px;
         text-align: justify;
+    }
+
+      /* industries section */
+
+      .main-our-industary {
+        
+        grid-template-columns: repeat(1 ,1fr);
+    }
+
+    .images-our-industryes 
+    {
+        grid-template-columns: repeat(2 , 1fr);
+    }
+
+    .content-width{
+        grid-template-columns: repeat(2 , 1fr);
+    }
+
+    .heading-industryes h1{
+        font-size: 1rem;
+    }
+
+    .mh {
+        width: 90%;
+        font-size: 1.4rem;
+    }
+
+    .btn-indus{
+        width: 100%;
     }
 
 
@@ -1886,9 +2149,23 @@ color: #6B8379;
         }
     }
 
+    /* about us section */
+
     .services-container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+    }
+    .content-about-us h1{
+        font-size: 16px;
+    }
+
+    .content-about-us .co-name{
+        font-size: 20px;
+    }
+    .content-about-us p{
+        font-size: 14px;
+        
+        word-break: break-all;
     }
 
     /* counter  */
@@ -2034,6 +2311,35 @@ color: #6B8379;
     .step-content p {
         font-size: 13px;
         text-align: justify;
+    }
+
+    /* industries section */
+
+    .heading-industryes h1{
+        font-size: 1rem;
+    }
+
+    .mh {
+        width: 90%;
+        font-size: 1.4rem;
+    }
+
+    .main-our-industary {
+        
+        grid-template-columns: repeat(1 ,1fr);
+    }
+
+    .images-our-industryes 
+    {
+        grid-template-columns: repeat(2 , 1fr);
+    }
+
+    .content-width{
+        grid-template-columns: repeat(2 , 1fr);
+    }
+
+    .btn-indus{
+        width: 100%;
     }
 
 }

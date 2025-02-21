@@ -40,18 +40,16 @@ function Counter() {
 
           <div className="main-content-about-us">
 
-
             <div className="content-about-us">
              
+            <h1>About us</h1>
+            <p className="co-name"> NAMOAI WEBTECH</p>
               <p>
-                Welcome to <span className="green">NAMO AI WEBTECH</span>, your trusted partner in innovative web development solutions.
+                Welcome to NAMO AI WEBTECH, your trusted partner in innovative web development solutions.
                 We specialize in creating high-performance, scalable, and user-friendly websites tailored to meet your business needs.
                 With a team of skilled developers and designers, we ensure top-notch quality and cutting-edge technology in every project.
 
-                odern development frameworks to provide secure, responsive, and high-speed websites.
-
-
-              </p>
+                 </p>
             </div>
 
             <div className="readmoreButton">

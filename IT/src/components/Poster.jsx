@@ -30,7 +30,7 @@ function Poster() {
         setAnimate(true); // Animation enable every time poster changes
         const changeImageTimer = setInterval(() => {
             increment();
-        }, 5000);
+        }, 500000000000);
         return () => clearInterval(changeImageTimer);
     }, [currentIndex]);
 
