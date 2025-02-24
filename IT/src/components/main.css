@@ -1032,17 +1032,61 @@ color: white;
 
 /* link pages.css */
 
+/* porfoliyo css start */
 
 .main{
-    
+    padding: 20px;
     width: 85%;
     margin: auto;
     
 
 }
-.revie-btn{
-    margin: 10px;
+.review-btn{
+   
+    margin: 20px;
 }
+
+
+.visit-button{
+    border-radius: 5px;
+    width: 40%;
+    padding: 5px;
+    border: 1px solid green;
+    background-color: black;
+    color: white;
+    transition: transform 0.5s ease-in-out;
+}
+.review{
+    transition: transform 0.5s ease-in-out;
+}
+
+
+.visit-button:hover{
+    
+    border: 1px solid black;
+    background-color: green;
+    color: white;
+}
+
+.images-card-portfoliyo{
+    
+    transition: transform 0.5s ease-in-out;
+
+}
+
+
+
+.card-container:hover .visit-button
+{
+    transform: scale(1.1);
+}
+
+.card-container:hover  .review {
+    transform: scale(1.1);
+}
+
+
+/* portfoliyo website end  */
 
 
 
