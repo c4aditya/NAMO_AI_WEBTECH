@@ -21,7 +21,7 @@ function Footer() {
              <div className="main-footer-section">
                  <div className="left-side-footer">
                         <div className="heading-left-side-footer">
-                          <h1 className="green"> NAMO AI WEBTECH</h1>
+                          <h1 className="green"> NAMO WEBTECH AI</h1>
                      </div>
                         <div className="content-left-side-footer">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus aperiam a laborum quibusdam necessitatibus blanditiis qui ut culpa, sint consectetur.</p>

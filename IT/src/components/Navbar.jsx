@@ -1,27 +1,42 @@
-import { useState } from "react";
-import { FaHome, FaInfoCircle, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
+import { useState, useEffect } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { Link } from "react-router-dom";
 
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  // Scroll Event Listener
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
-    <nav className="navbar">
+    <nav className={`navbar ${scrolled ? "scrolled" : ""}`}>
       <div className="nav-container">
         {/* Logo */}
-        <h1 className="logo">NAMO AI</h1>
+        <h1 className="logo">NAMO AI WEBTECH</h1>
 
         {/* Desktop Menu */}
         <ul className={`nav-links ${isOpen ? "open" : ""}`}>
-          <NavItem  text="Home" />
-
-          <NavItem  text="Contact Us" />
-          <NavItem text="About Us" />
-          <NavItem  text="Portfolio" />
-          <NavItem  text="Services" />
+         
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/portfoliyo">Portfoliyo</Link></li>
+        <li><Link to="/About_Us">About Us</Link></li>
+        <li><Link to="/contact_us">Contact us </Link></li>
         </ul>
-        
 
         {/* Mobile Menu Button */}
         <button onClick={() => setIsOpen(!isOpen)} className="menu-btn">
@@ -33,9 +48,9 @@ const Navbar = () => {
 };
 
 // Reusable NavItem Component
-const NavItem = ({ icon, text }) => (
+const NavItem = ({ text }) => (
   <li className="nav-item">
-    {icon} <span>{text}</span>
+    <span>{text}</span>
   </li>
 );
 

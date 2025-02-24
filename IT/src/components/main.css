@@ -13,21 +13,20 @@
     background-color: black;
     color: #23df75;
     padding: 10px 0;
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
 
-
-
+/* Scroll hone pe navbar ka color change */
+.navbar.scrolled {
+  
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .nav-container {
     position: fixed;
-    /* Fixes the navbar on the screen */
     top: 10px;
-    /* Adjust as needed */
     left: 50%;
-    /* Moves it to the center */
     transform: translateX(-50%);
-    /* Perfectly centers it */
-
     width: 85%;
     border-radius: 25px;
     padding: 18px;
@@ -36,15 +35,29 @@
     justify-content: space-between;
     align-items: center;
     background-color: black;
-    /* Add background for visibility */
     z-index: 9999;
-    /* Keeps it above other elements */
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Scroll hone pe nav-container ka background bhi change */
+.navbar.scrolled .nav-container {
+    width: 100%;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    top: 0;
 }
 
 .logo {
     font-size: 24px;
     font-weight: bold;
     color: #23df75;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Scroll hone pe logo ka color black ho jayega */
+.navbar.scrolled .logo {
+    color:green;
 }
 
 .nav-links {
@@ -54,16 +67,14 @@
     font-weight: 600;
     list-style: none;
     width: 45%;
-
 }
-
 
 .nav-item {
     display: flex;
     align-items: center;
     gap: 10px;
     cursor: pointer;
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
     font-size: 1.1rem;
     padding: 5px;
     font-weight: lighter;
@@ -71,20 +82,25 @@
     font-weight: 400;
 }
 
-.nav-item svg {
-    display: flex;
-    align-items: center;
-    font-size: 1rem;
+/* Scroll hone pe text ka color black ho jayega */
+.navbar.scrolled .nav-item {
+
+    color: green;
+    font-weight: 600;
 }
 
-
-
+/* Hover Effect */
 .nav-item:hover {
     transform: scale(1.1);
     color: white;
-    /* border-bottom: 1px solid #A134FC; */
     font-weight: 500;
 }
+
+/* Scroll hone ke baad hover pe green color aayega */
+.navbar.scrolled .nav-item:hover {
+    color: #23df75;
+}
+
 
 /* nav bar end  */
 
@@ -1014,6 +1030,19 @@ color: white;
 
 
 
+/* link pages.css */
+
+
+.main{
+    
+    width: 85%;
+    margin: auto;
+    
+
+}
+.revie-btn{
+    margin: 10px;
+}
 
 
 
@@ -1024,7 +1053,7 @@ color: white;
 
 
 /* responsive design  */
-@media screen and (max-width : 1050px) {
+@media screen and (max-width : 1100px) {
     .nav-links {
         width: 70%;
     }
@@ -1137,6 +1166,10 @@ color: white;
 
     .content-width{
         grid-template-columns: repeat(5 , 1fr);
+    }
+
+    .stepnumber{
+        margin-top: 14px;
     }
 
 
@@ -1336,6 +1369,29 @@ color: white;
     .content-width{
         grid-template-columns: repeat(4, 1fr);
     }
+
+    /* footer sections  */
+
+    
+.main-footer-section{
+  
+    display: grid;
+    grid-template-columns: repeat(1 ,1fr);
+}
+.heading-left-side-footer h1{
+   
+    font-size: 1.4rem;
+}
+.content-left-side-footer{
+  
+    text-align: justify;
+    word-break: break-all;
+}
+.right-side-footer{
+    margin-top: 20px;
+    grid-template-columns: repeat(1 ,1fr);
+}
+
 
 
 
@@ -1657,6 +1713,9 @@ color: white;
     width: 100%;
 }
 
+.stepnumber{
+    margin-top: 4px;
+}
 /* our client section  */
 .main-our-client{
     padding: 0px;
@@ -1686,25 +1745,6 @@ color: white;
 }
 
 /* footer section */
-
-.main-footer-section{
-  
-    display: grid;
-    grid-template-columns: repeat(1 ,1fr);
-}
-.heading-left-side-footer h1{
-   
-    font-size: 1.4rem;
-}
-.content-left-side-footer{
-  
-    text-align: justify;
-    word-break: break-all;
-}
-.right-side-footer{
-    margin-top: 20px;
-    grid-template-columns: repeat(1 ,1fr);
-}
 
 }
 
@@ -1992,6 +2032,7 @@ color: white;
         font-size: 13px;
         text-align: justify;
     }
+   
 
       /* industries section */
 

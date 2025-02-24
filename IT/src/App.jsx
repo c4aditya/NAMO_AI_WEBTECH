@@ -1,34 +1,29 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Poster from "./components/Poster";
-import Services from "./components/Services";
-import Wedo from "./components/WeDo";
-import Counter from "./components/Counter";
-import OurClient from "./components/OurClients";
-import  "./components/main.css";
-import Footer from "./components/Footer"
-import Industryes from "./components/Industryes";
+import Footer from "./components/Footer";
+import Home from "./components/pages/Home";
+// import { PinContainer } from "./components/pages/ContainerScroll";
+import ThreeDCardDemo from "./components/pages/ThreeDCardDemo";
+import Contact from "./components/pages/ContactUs";
+import About from "./components/pages/Aboutus"
 
+import "./components/main.css";
 
 function App() {
- 
-
   return (
-    <>
-    <div className='h'>
-     <Navbar/>     
-      <Poster/>
-       <Services/>
-      <Counter/>
-      <Wedo/>  
-      <Industryes/> 
-      <OurClient/>
-      <Footer/>
-     
-    
-      </div>
-    </>
-  
-  )
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/portfoliyo" element={<ThreeDCardDemo/>} />
+       
+        <Route path="/contact_us" element={<Contact/>}/>
+        <Route path="/About_Us" element={<About/>}/>
+       
+      </Routes>
+      <Footer />
+    </Router>
+  );
 }
 
-export default App
+export default App;
