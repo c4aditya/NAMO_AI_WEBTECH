@@ -68,7 +68,7 @@ export default function Page() {
         {cardsData.map((card, index) => (
           <div className="sub-portfoliyo-card" key={index}>
             <CardContainer className="card-container">
-              <CardBody className="bg-white justify-between">
+              <CardBody className="bg-white rounded-xl justify-between">
                 <img
                   src={card.image}
                   alt="Portfolio Item"
