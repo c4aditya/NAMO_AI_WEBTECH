@@ -4,7 +4,6 @@ import Lottie from "lottie-react";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { MdKeyboardArrowLeft } from "react-icons/md";
 import { useState, useEffect } from "react";
-import { TfiArrowCircleLeft, TfiArrowCircleRight } from "react-icons/tfi";
 import { BiRightTopArrowCircle } from "react-icons/bi";
 function Poster() {
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -27,10 +26,10 @@ function Poster() {
     }
 
     useEffect(() => {
-        setAnimate(true); // Animation enable every time poster changes
+        setAnimate(true);
         const changeImageTimer = setInterval(() => {
             increment();
-        }, 5000);
+        }, 5000000000);
         return () => clearInterval(changeImageTimer);
     }, [currentIndex]);
 
@@ -45,7 +44,8 @@ function Poster() {
                     </div>
                     <div className="title-image">
                         <div className={`title ${animate ? "animate" : ""}`}>
-                            <h1>{Slides[currentIndex].title}</h1>
+                            <h1 className="title-heading-h1">NAMO AI WEBTECH</h1>
+                            <p>{Slides[currentIndex].title}</p>
                             <p>{Slides[currentIndex].description}</p>
                             <div className="button">
                                 <button className="btn">Get In Touch

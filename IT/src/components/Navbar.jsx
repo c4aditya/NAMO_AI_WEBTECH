@@ -32,10 +32,12 @@ const Navbar = () => {
         {/* Desktop Menu */}
         <ul className={`nav-links ${isOpen ? "open" : ""}`}>
          
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/portfoliyo">Portfoliyo</Link></li>
-        <li><Link to="/About_Us">About Us</Link></li>
-        <li><Link to="/contact_us">Contact us </Link></li>
+        <li><Link to="/">HOME</Link></li>
+        <li><Link to="/About_Us">ABOUT US </Link></li>
+
+        <li><Link to="/portfoliyo">SERVICES</Link></li>
+        <li><Link to="/portfoliyo">PROJECT</Link></li>
+        <li><Link to="/contact_us">CONTACT US </Link></li>
         </ul>
 
         {/* Mobile Menu Button */}

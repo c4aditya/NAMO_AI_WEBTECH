@@ -24,7 +24,7 @@ function Counter() {
     <>
       <section className="about-us-section">
         <div className="heading-about-us">
-          <h1>Who we <span className="green">are ?</span></h1>
+          <h1>About <span className="green">Us</span></h1>
         </div>
         <div className="main-about-us">
 
@@ -42,7 +42,7 @@ function Counter() {
 
             <div className="content-about-us">
              
-            <h1>About us</h1>
+            
             <p className="co-name"> NAMOAI WEBTECH</p>
               <p>
                 Welcome to NAMO AI WEBTECH, your trusted partner in innovative web development solutions.
@@ -62,11 +62,11 @@ function Counter() {
       <div className="main-tursted-section">
         <div className="sub-tursted-section">
           <div className="tursted-section">
-            <h1 className="tursted-heading">Trusted by <span className="green"> Industry Leaders</span> .</h1>
+            <h1 className="tursted-heading">Trusted by <span className="green"> Industry Leaders</span> </h1>
             <p className="tursted-para">Empowering Global Brands and Startups to Drive Innovation and Success with our unparalled
               expertise and commitment to excellence.</p>
           </div>
-
+        <hr></hr>
 
 
 

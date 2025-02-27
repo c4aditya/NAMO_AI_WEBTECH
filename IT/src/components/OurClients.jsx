@@ -7,18 +7,19 @@ import client4 from  "../Images/test4.jpg";
 const OurClient = () => {
   const testimonials = [
     {
+      id:1,
       image:client1,
       name: "John Doe",
       designation: "CEO, Apple",
       quote: "Their web development services are outstanding! They've helped streamline our workflow with exceptional attention to detail. The team is highly skilled, delivering high-quality and efficient solutions. We are truly impressed with their work and commitment to excellence."
     },
-    {
+    {   id:2,
         image:client2,
       name: "Jane Smith",
       designation: "Marketing Head, ABC Corp",
       quote: "I absolutely love the marketing strategies they've implemented! The team has done a fantastic job in creating campaigns that truly resonate with our audience. Their creativity and expertise have helped us connect with customers more effectively. "
     },
-    {
+    {   id:3,
         image:client3,
         name: "Jane Smith",
         designation: "asdkjasdjkhsdajk",
@@ -26,7 +27,7 @@ const OurClient = () => {
 
 
       },
-      {
+      {id:4,
         image:client4,
         name: "Jane Smith",
         designation: "asdjasdkjha",

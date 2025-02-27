@@ -5,8 +5,28 @@
 
     padding: 0px;
     margin: 0px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-family: sans-serif;
+
 }
+
+.about-section-to{
+    padding: 5px;
+    border-radius: 10px;
+    width: 20%;
+    margin: auto;
+    color: #23DF75;
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-align: center;
+   
+  
+ 
+ 
+}
+
+
+
+
 
 .navbar {
     height: 100px;
@@ -124,14 +144,12 @@
 }
 
 .poster {
-
     display: flex;
     position: relative;
     width: 100%;
 }
 
 .title-image {
-
     display: flex;
     width: 80%;
     margin: auto;
@@ -159,7 +177,6 @@
 }
 
 .animation svg {
-
     width: 30rem !important;
     background-color: black;
     animation: slideInRight 0.8s ease-in-out;
@@ -210,11 +227,12 @@
 
 /* Apply animation only when .animate class is added */
 .title.animate h1 {
-
+    font-size: 2rem     ;
+ 
     width: 90%;
-    font-size: 2rem;
+   
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #23df75;
+    color: #23DF75;
     font-weight: bold;
     animation: slideInLeft 0.8s ease-in-out forwards;
 }
@@ -225,8 +243,8 @@
     word-break: break-all;
     width: 90%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1.3rem;
-    line-height: 2rem;
+    font-size: 1.1rem;
+    line-height: 1.7rem;
     word-spacing: 2px;
     animation: slideInLeft 0.8s ease-in-out 0.2s forwards;
 }
@@ -241,10 +259,10 @@
     border: none;
     border-radius: 20px;
     background-color: #23df75;
-    font-size: 1.3rem;
+    font-size: 1rem;
     color: white;
-    padding: 10px;
-    width: 35%;
+    padding: 9px;
+    width: 30%;
     cursor: pointer;
     animation: slideInLeft 0.8s ease-in-out 0.4s forwards;
     transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
@@ -254,11 +272,11 @@
 .movingarrow {
 
     position: absolute;
-    right: 5%;
-    bottom: 11%;
+    right: 10%;
+    bottom: 19%;
     /* border: 1px solid #A134FB ; */
     display: flex;
-    font-size: 2rem;
+    font-size: 1.5rem;
     transform: translateX(0px) rotate(0deg);
     opacity: 1;
     transition: transform 0.25s ease-in-out, opacity 0.3s ease-in-out;
@@ -581,7 +599,7 @@ color: white;
     color: white;
     word-break: break-all;
     word-spacing: 2px;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .readmore-btn {
@@ -599,8 +617,9 @@ color: white;
 /* counter and tursted section */
 
 .counter-value {
-    border: 1px solid green;
+    border: 1.5px solid green;
     border-radius: 5px;
+    box-shadow: 0px 0px 20px rgba(0, 128, 0, 0.3);
 }
 
 .main-tursted-section {
@@ -712,17 +731,17 @@ color: white;
 }
 
 .content-our-industryes{
-    justify-content: space-between;
+   
     padding: 20px;
    
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 4%;
 
 }
 .btn-indus{
-    font-size: 1.1rem;
-    font-weight: 700;
+    font-size: 1rem;
+    font-weight: 500;
     padding: 5px;
     border-radius: 5px;
     width: 25%;
@@ -747,10 +766,11 @@ color: white;
 }
 
 .images-our-industryes{
-
-    padding: 10px;
+    justify-items: center;
+    padding: 5% 0%;
     display: grid;
-    gap: 30px;
+    gap:10px;
+    
     grid-template-columns: repeat(3, 1fr);
 }
 

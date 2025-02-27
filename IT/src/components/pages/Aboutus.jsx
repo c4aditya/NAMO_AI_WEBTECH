@@ -52,7 +52,8 @@ function Aboutus() {
                             </div>
 
                             <div className="paragraph-mid">
-                                At Namowebtech, our mission is to empower businesses with cutting-edge digital solutions that drive real impact. We believe technology should be more than just code—it should enable growth, creativity, and seamless experiences. That’s why we focus on crafting innovative web solutions, intuitive designs, and high-performance applications that help brands stand out. With an innovation-first mindset, a people-centric approach, and a commitment to quality, we go beyond just delivering projects—we build experiences. Our goal is to create technology that transforms ideas into reality, fosters growth, and makes a lasting impact in the digital world.
+                              <p>  At <span className="green"> Namo web tech</span>, our mission is to empower businesses with cutting-edge digital solutions that drive real impact. We believe technology should be more than just code—it should enable growth, creativity, and seamless experiences. That’s why we focus on crafting innovative web solutions, intuitive designs, and high-performance applications that help brands stand out. With an innovation-first mindset, a people-centric approach, and a commitment to quality, we go beyond just delivering projects—we build experiences. Our goal is to create technology that transforms ideas into reality, fosters growth, and makes a lasting impact in the digital world.
+                              </p>
                             </div>
 
                         </div>
@@ -71,7 +72,8 @@ function Aboutus() {
                             </div>
 
                             <div className="paragraph-mid">
-                                At Namowebtech, our vision is to create a digital world where businesses, big or small, can harness the power of technology to innovate, grow, and thrive. We envision a future where seamless user experiences, smart automation, and cutting-edge web solutions drive success across industries. By constantly evolving, embracing new technologies, and prioritizing creativity, we aim to be at the forefront of digital transformation—helping brands not just keep up but lead in an ever-changing landscape. Our vision is to turn ideas into reality, challenges into opportunities, and businesses into success stories
+                              <p>  At <span className="green">Namowebtech</span>, our vision is to create a digital world where businesses, big or small, can harness the power of technology to innovate, grow, and thrive. We envision a future where seamless user experiences, smart automation, and cutting-edge web solutions drive success across industries. By constantly evolving, embracing new technologies, and prioritizing creativity, we aim to be at the forefront of digital transformation—helping brands not just keep up but lead in an ever-changing landscape. Our vision is to turn ideas into reality, challenges into opportunities, and businesses into success stories
+                               </p>
                             </div>
                         </div>
 
@@ -100,7 +102,7 @@ function Aboutus() {
                                 </div>
 
                                 <div className="simple-text">
-                                    <p>At Namowebtech, we believe in simplicity, clarity, and functionality. Our designs are intuitive.</p>
+                                    <p>At <span className="green">Namowebtech</span> we believe in simplicity, clarity, and functionality. Our designs are intuitive.</p>
                                 </div>
 
 
@@ -117,7 +119,7 @@ function Aboutus() {
                                 </div>
 
                                 <div className="simple-text">
-                                    <p>At Namowebtech, customer satisfaction is our top priority. We focus on understanding needs.</p>
+                                    <p>At <span className="green">Namowebtech</span>, customer satisfaction is our top priority. We focus on understanding needs.</p>
                                 </div>
 
 
@@ -131,7 +133,7 @@ function Aboutus() {
                                 </div>
 
                                 <div className="simple-text">
-                                    <p>At Namowebtech, trust is the foundation of everything we do.</p>
+                                    <p>At <span className="green">Namowebtech</span>, trust is the foundation of everything we do.</p>
                                 </div>
                             </div>
                         </div>
@@ -154,7 +156,7 @@ function Aboutus() {
                             </div>
 
                             <div className="paragraph-mid">
-                                <p>At Namowebtech, our team is a blend of passionate innovators, creative thinkers, and tech enthusiasts dedicated to bringing ideas to life. With expertise across various domains, we collaborate to craft cutting-edge solutions that drive success</p>
+                                <p>At <span className="green">Namowebtech</span> , our team is a blend of passionate innovators, creative thinkers, and tech enthusiasts dedicated to bringing ideas to life. With expertise across various domains, we collaborate to craft cutting-edge solutions that drive success</p>
                             </div>
                         </div>
 
@@ -463,12 +465,12 @@ function Aboutus() {
 
                     <div className="connect-with-expert-mid">
                         <div className="content-connect-heading">
-                            <h1>Connect with an expert</h1>
+                            <h1> <span className="green"> Connect</span> with an <span className="green">expert</span></h1>
                          
                         </div>
 
                         <div className="content-connect-para">
-                            <p>Unlock your data's potential with Arch. Start transforming your business today</p>
+                            <p>Unlock your data's potential with <span className="green">Namo Webtech AI </span>. Start transforming your business today</p>
                         </div>
 
                         <div className="content-connect-button">

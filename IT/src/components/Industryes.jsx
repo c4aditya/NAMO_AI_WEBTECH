@@ -129,8 +129,20 @@ function Industryes(){
 
 
         <div className="our-customers">
+            <div className="about-section-to">
+                
+                
+            <div className="content-about-section">
+                <h1> // Our Customers </h1>
+                </div>
+                 
+                </div>
+              
+
+               
+          
             <div className="our-custorme-heading">
-                <h1 className="mh">Loved by 200 + customer in <span className="green" >India .</span></h1>
+                <h1 className="mh">Loved by 200+ customer in <span className="green" >India </span></h1>
 
             </div>
 
