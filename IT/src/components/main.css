@@ -24,10 +24,7 @@
  
 }
 
-.wed{
-    border: 2px solid red;
-    background-color: #181818;
-}
+
 
 
 
@@ -241,7 +238,6 @@
 }
 
 .title.animate p {
-
     color: white;
     word-break: break-all;
     width: 90%;
@@ -350,8 +346,6 @@
     border: 0.1px solid #23DF75;
     padding: 10px;
     border-radius: 15px;
-
-
     transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
@@ -730,14 +724,17 @@ color: white;
 /* industries-section css start */
 
 .main-class-our-industryes{
-    padding-top: 5%;
+    margin: auto;
+    
+    width: 85%;
     background-color: #181818;
     color: white;
 
 } 
 
  .mh{
-    padding-bottom: 50px;
+   padding-top: 5%;
+   padding-bottom: 5%;
     width: 50%;
     font-weight: 700;
     margin: auto;
@@ -752,7 +749,7 @@ color: white;
 
 .main-our-industary{
     border-radius: 10px;
-    border: 1px solid green;
+    padding-bottom: 5%;
     width: 95%;
     margin: auto;
     display: grid;

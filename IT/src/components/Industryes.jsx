@@ -2,18 +2,17 @@ import { CardContainer } from "./CardContainer";
 function Industryes(){
     return(
         <>
-        <div className="wid">
-    <CardContainer>
+        <div className="movingcarda-background-color">
+ 
         <div className="main-class-our-industryes">
+        <CardContainer  >
    
                      <h1 className="mh">Industries Were we are <span className="green"> work with . </span></h1>
               
            <div className="main-our-industary">
             
              <div className="content-our-industryes">
-                <div className="heading-industryes">
-                  <h1>Empowering Success <sapn className="green"> Across Industries </sapn></h1>
-                </div>
+                
                 <div className="para-industryes">
                   <p>We are a dynamic IT company providing a comprehensive range of business services designed to meet the evolving demands of modern enterprises. From innovative web development and strategic digital marketing to advanced branding, SEO, and lead generation techniques, we empower businesses to succeed in today’s competitive landscape. Our solutions cater to diverse industries, ensuring tailored and impactful results. With a commitment to innovation and quality, we help our clients strengthen their online presence, drive sustainable growth, and achieve their business objectives.</p>
                 </div>
@@ -130,9 +129,9 @@ function Industryes(){
              </div>
 
              </div>
-           
+             </CardContainer>  
         </div>    
-        </CardContainer>     
+          
 
 
         <div className="our-customers">
