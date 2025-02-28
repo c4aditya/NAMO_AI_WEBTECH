@@ -1,11 +1,14 @@
 
 import Slides from "./SliderData";
 import Lottie from "lottie-react";
+
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { MdKeyboardArrowLeft } from "react-icons/md";
 import { useState, useEffect } from "react";
 import { BiRightTopArrowCircle } from "react-icons/bi";
 function Poster() {
+
+ 
     const [currentIndex, setCurrentIndex] = useState(0);
     const [animate, setAnimate] = useState(false);
 
@@ -35,10 +38,11 @@ function Poster() {
 
     return (
         <>
-
-            <div className="posters">
+                        <div className="posters">
 
                 <div className="poster">
+
+                   
                     <div className="decrement" onClick={decrement}>
                         <h1>< MdKeyboardArrowLeft /></h1>
                     </div>
@@ -65,6 +69,7 @@ function Poster() {
                     </div>
                 </div>
             </div>
+           
         </>
     );
 

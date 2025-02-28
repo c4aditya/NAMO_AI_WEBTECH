@@ -1,10 +1,15 @@
-
+import { CardContainer } from "./CardContainer";
 function Industryes(){
     return(
         <>
+        <div className="wid">
+    <CardContainer>
         <div className="main-class-our-industryes">
-             <h1 className="mh">Industries Were we are <span className="green"> work with . </span></h1>
+   
+                     <h1 className="mh">Industries Were we are <span className="green"> work with . </span></h1>
+              
            <div className="main-our-industary">
+            
              <div className="content-our-industryes">
                 <div className="heading-industryes">
                   <h1>Empowering Success <sapn className="green"> Across Industries </sapn></h1>
@@ -18,7 +23,7 @@ function Industryes(){
                 </div>
 
              </div>
-
+           
              <div className="images-our-industryes">
 
                <div className="image-text-industryes">
@@ -125,7 +130,9 @@ function Industryes(){
              </div>
 
              </div>
-        </div>
+           
+        </div>    
+        </CardContainer>     
 
 
         <div className="our-customers">
@@ -288,7 +295,7 @@ function Industryes(){
 
         </div>
 
-
+        </div>
         </>
     )
 }

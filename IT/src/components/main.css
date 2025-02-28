@@ -24,7 +24,10 @@
  
 }
 
-
+.wed{
+    border: 2px solid red;
+    background-color: #181818;
+}
 
 
 
@@ -406,27 +409,51 @@
 
 
 /* choose our service css start */
-.main-our-process {
-    padding-top: 10%;
+.main-our-process{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin:  auto;
+    width: 85%;
+   
     color: white;
-
+  
+  
     background-color: #181818;
 }
-
-.main-our-process-content {
-
+.our-process-content-heading{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 5%;
     text-align: center;
+}
+.our-process-heading h1{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.main-our-process-content {
+   
+    text-align: center;
+   
     padding-bottom: 50px;
 }
-
+.heading-wedo{
+    text-align: center;
+    
+   
+}
+.heading-wedo h1{
+      font-size: 2rem;
+      font-weight: 700;
+}
 .sub-our-process {
-    padding: 15px;
+    padding: 5%;
     display: grid;
     grid-template-columns: repeat(2, 50%);
-    width: 85%;
+  
     margin: auto;
     color: white;
-    border: 0.5px solid green;
+   
     border-radius: 10px;
     position: relative;
     overflow: hidden;
@@ -464,7 +491,7 @@
 .step4 {
     
     border-radius: 10px;
-    border: 1px solid green;
+    border: 1px solid #94D5DA;
     background-color: #181818;
     z-index: 10;
     position: relative;
@@ -479,7 +506,7 @@
 
 .stepnumber {
 
-    border: 1px solid green;
+    border: 1px solid #94D5DA;
     height: fit-content;
     margin-top: 5px;
     border-radius: 100%;
@@ -515,7 +542,10 @@ color: white;
 /* chose your service css end  */
 
 
-
+.movingcarda-background-color{
+    padding-bottom: 50px;
+    background-color: #181818;
+}
 
 /* about us section start */
 
@@ -623,7 +653,9 @@ color: white;
 }
 
 .main-tursted-section {
-    padding-top: 50px;
+    margin: auto;
+    width: 85%;
+ 
     background-color: #181818;
     color: white;
 
@@ -631,25 +663,23 @@ color: white;
 
 .sub-tursted-section {
     /* border: 0.5px solid green; */
+  
     border-radius: 10px;
-    width: 80%;
+   
     margin: auto;
-    padding-bottom: 20px;
+  padding: 5%;
 }
 
 .tursted-section {
-    padding: 5% 30px 0px 30px;
+   
 
     text-align: center;
 }
 
 .tursted-para {
-
-
     width: 80%;
     font-size: 1rem;
-    word-break: break-all;
-    
+    word-break: break-all;    
     margin: 20px auto;
     color:white ;
 }
@@ -700,7 +730,7 @@ color: white;
 /* industries-section css start */
 
 .main-class-our-industryes{
-    padding-top: 10%;
+    padding-top: 5%;
     background-color: #181818;
     color: white;
 
@@ -1718,6 +1748,7 @@ color: white;
     .logos-technology svg {
         font-size: 2.7rem;
     }
+    
 
     .main-our-process-content h1 {
         font-size: 20px;
@@ -1728,7 +1759,7 @@ color: white;
     }
 
     .sub-our-process {
-
+     
         display: flex;
         flex-direction: column;
     }

@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import Aboutusimg from "../Images/aboutusimg.jpg";
 import Dotsimg from "../Images/about-shape-dots.png"
+import { CardContainer } from "./CardContainer";
 function Counter() {
   const [count1, setCount1] = useState(0);
   const [count2, setCount2] = useState(0);
@@ -43,7 +44,7 @@ function Counter() {
             <div className="content-about-us">
              
             
-            <p className="co-name"> NAMOAI WEBTECH</p>
+            <p className="co-name "> NAMOAI WEBTECH</p>
               <p>
                 Welcome to NAMO AI WEBTECH, your trusted partner in innovative web development solutions.
                 We specialize in creating high-performance, scalable, and user-friendly websites tailored to meet your business needs.
@@ -59,17 +60,19 @@ function Counter() {
         </div>
 
       </section>
+     <div className="movingcarda-background-color">
       <div className="main-tursted-section">
+      <CardContainer>
         <div className="sub-tursted-section">
           <div className="tursted-section">
             <h1 className="tursted-heading">Trusted by <span className="green"> Industry Leaders</span> </h1>
             <p className="tursted-para">Empowering Global Brands and Startups to Drive Innovation and Success with our unparalled
               expertise and commitment to excellence.</p>
           </div>
-        <hr></hr>
+    
 
 
-
+          
           <div className="top-counter">
             <div className="main-counter">
               <div className="counter-value">
@@ -94,7 +97,10 @@ function Counter() {
             </div>
           </div>
         </div>
+        </CardContainer>
       </div>
+      </div>
+      
     </>
   );
 }
