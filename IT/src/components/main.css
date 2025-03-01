@@ -879,61 +879,52 @@ color: white;
 
 
 
-/* our customers images  */
-.our-customers{
-   
-    padding-top: 10%;
-    background-color: #181818;
-    color: white;
-
-   
-}
-
-.content-width{
-    padding: 20px;
-    border: 1px solid green;
-    border-radius: 10px;
-    display: grid;
-    grid-template-columns: repeat(6 ,1fr);
-    gap: 10px;
-    width: 95%;
-    margin: auto;
-    justify-items: center;
-
-}
-
-
-.images-with-link {
-    width: 95%;
-    
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;    
-    padding: 10px;
-    color: black;
-    border-radius: 10px;
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-    
+/* our customers start */
+.top-our-customer{
   
+    color:white;
 }
 
-/* Hover Effect (Enhance Shadow) */
-.images-with-link:hover {
-    transform: scale(1.05);
-    box-shadow: 0px 10px 25px white;
+
+.left-img-content-right-img{
+  
+     display: grid;
+     grid-template-columns: 30% 40% 30%;
+     
+    
 }
+
+.row-logos{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.frist-img{
+    display: flex;
+    justify-content: center;
+    border: 1px solid wheat;
+    padding: 10px;
+    border-radius: 10px;
+}
+.frist-img img{
+    width: 80%;
+}
+
+
+
+.right-image-customer img{
+    rotate: 180deg;
+}
+
+/* our customer ends */
 
 
 
 /* footer section css */
 
 
-.lastLine {
-    color: white;
-    padding-top: 10px;
-    margin: auto;
-}
+
 
 .footer {
 

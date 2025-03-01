@@ -280,7 +280,101 @@ font-weight: 700;
     width: 100%;
 }
 
+/* 
+--------------------------------
+our portfoliyo section start css 
+---------------------------------
+*/
+.width-our-portfolio{
 
+    background-color: black;
+}
+
+.our-portfoliyo-top{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color:white;    
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+.our-portfoliyo-top h1{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.our-portfoliyo-top p{
+    margin-top: 10px;
+    font-size: 1.1rem;
+    text-align: justify;
+    word-break: break-all;
+    font-weight: 600;
+}
+.image-our-portfolio{
+   
+    border: 2px solid black;
+    display: flex;
+    
+    width: 100%;
+}
+
+
+
+
+.main-cards-portfoliyo{    
+    
+    background-color: black; 
+   
+}
+.our-product-heading-text{
+    width: 85%;
+    margin-top: 10%;
+    margin-left: 10%;
+    background-color:black;
+    color :aliceblue;
+    
+}
+.our-product-heading-text h1{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.our-product-heading-text p{
+
+    width: 70%;
+    margin-top: 10px;
+    font-size: 1.1rem;
+    font-size: 600;
+    text-align: justify;
+    word-break: break-all;
+}
+.our-ptoject-cards-first{   
+    display:flex ;
+    flex-direction: row-reverse;
+    padding: 10px;
+    gap: 20px;
+    
+}
+
+.our-ptoject-cards-second{
+    
+    margin-top: 10px;
+   
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+}
+
+.our-ptoject-cards-third{
+  
+    flex-direction: row-reverse;
+    margin-top: 10px;
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+}
 
 
 

@@ -1,4 +1,5 @@
 import { CardContainer } from "./CardContainer";
+import customerImg from "../Images/left-icon.png"
 function Industryes(){
     return(
         <>
@@ -134,7 +135,7 @@ function Industryes(){
           
 
 
-        <div className="our-customers">
+        {/* <div className="our-customers">
             <div className="about-section-to">
                 
                 
@@ -292,8 +293,97 @@ function Industryes(){
                 
             </div>
 
-        </div>
+        </div> */}
 
+        {/*  our customer start here  */}
+
+        <section>
+            <div className="top-our-customer">
+
+                <div className="heading-para-our-customer">
+                    <div className="our-customer-heading">
+                        <h1>Our customer</h1>
+                    </div>
+
+                    <div className="our-customer-para">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, at.</p>
+                    </div>
+
+                    
+                </div>
+
+                <div className="left-img-content-right-img">
+                <div className="left-image-customer">
+                        <img src={customerImg}/>
+                    </div>
+
+                    <div className="customer-logos">
+                        <div className="row-logos">
+                            <div className="frist-img">
+                              <img src="https://arch.dev/static/2d54da7c2d324f2d242d00e9696af269/0640a/gv-2.webp"/>
+                            </div>
+
+                            <div className="frist-img">
+                              <img src="https://arch.dev/static/2d54da7c2d324f2d242d00e9696af269/0640a/gv-2.webp"/>
+                            </div>
+
+                            <div className="frist-img">
+                              <img src="https://arch.dev/static/2d54da7c2d324f2d242d00e9696af269/0640a/gv-2.webp"/>
+                            </div>
+
+                            <div className="frist-img">
+                              <img src="https://arch.dev/static/2d54da7c2d324f2d242d00e9696af269/0640a/gv-2.webp"/>
+                            </div>
+                        </div>
+
+                        <div className="row-logos">
+                            <div className="frist-img">
+                              <img src="https://arch.dev/static/2d54da7c2d324f2d242d00e9696af269/0640a/gv-2.webp"/>
+                            </div>
+
+                            <div className="frist-img">
+                              <img src="https://arch.dev/static/2d54da7c2d324f2d242d00e9696af269/0640a/gv-2.webp"/>
+                            </div>
+
+                            <div className="frist-img">
+                              <img src="https://arch.dev/static/2d54da7c2d324f2d242d00e9696af269/0640a/gv-2.webp"/>
+                            </div>
+
+                            <div className="frist-img">
+                              <img src="https://arch.dev/static/2d54da7c2d324f2d242d00e9696af269/0640a/gv-2.webp"/>
+                            </div>
+                        </div>
+
+
+                        <div className="row-logos">
+                            <div className="frist-img">
+                              <img src="https://arch.dev/static/2d54da7c2d324f2d242d00e9696af269/0640a/gv-2.webp"/>
+                            </div>
+
+                            <div className="frist-img">
+                              <img src="https://arch.dev/static/2d54da7c2d324f2d242d00e9696af269/0640a/gv-2.webp"/>
+                            </div>
+
+                            <div className="frist-img">
+                              <img src="https://arch.dev/static/2d54da7c2d324f2d242d00e9696af269/0640a/gv-2.webp"/>
+                            </div>
+
+                            <div className="frist-img">
+                              <img src="https://arch.dev/static/2d54da7c2d324f2d242d00e9696af269/0640a/gv-2.webp"/>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div className="right-image-customer">
+                        <img src={customerImg}/>
+                    </div>
+
+                </div>
+
+            </div>
+
+       </section>
         </div>
         </>
     )
