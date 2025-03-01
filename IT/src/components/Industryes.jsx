@@ -8,7 +8,7 @@ function Industryes(){
         <div className="main-class-our-industryes">
         <CardContainer  >
    
-                     <h1 className="mh">Industries Were we are <span className="green"> work with . </span></h1>
+                     <h1 className="mh">// Industries Were we are <span className="green"> work with </span></h1>
               
            <div className="main-our-industary">
             

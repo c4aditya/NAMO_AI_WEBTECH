@@ -14,7 +14,7 @@ function WeDo() {
                     <CardContainer borderColor="#75D8BD">
                  <div className="our-process-content-heading">
                     <div className="our-process-heading">
-                        <h1>Our <span className="green"> Process</span> </h1>
+                        <h1>// Our <span className="green"> Process</span> </h1>
 
                     </div>
                     <div className="our-process-para">

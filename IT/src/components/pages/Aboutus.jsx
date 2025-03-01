@@ -7,6 +7,17 @@ import { MdDesignServices } from "react-icons/md";
 import { FaHandshake } from "react-icons/fa";
 import { BsPeopleFill } from "react-icons/bs";
 import { FaLinkedin } from "react-icons/fa";
+
+// importing images of developers
+import firsrimg from "../../OurTeamImages/01.jpg"
+import secondimg from "../../OurTeamImages/02.jpg"
+import thirdimg from "../../OurTeamImages/03.jpg"
+import fourthimg from "../../OurTeamImages/04.jpg"
+import fifthimg from "../../OurTeamImages/04.jpg"
+import siximg from "../../OurTeamImages/05.jpg"
+import seventhimg from "../../OurTeamImages/06.jpg"
+import eightimg from "../../OurTeamImages/07.jpg"
+import nineimg from "../../OurTeamImages/07.jpg"
 import "./page.css"
 
 function Aboutus() {
@@ -44,15 +55,16 @@ function Aboutus() {
                     </div>
 
                     {/* our mission  */}
-
+                
                     <div className="our-mission">
+                    
                         <div className="content">
                             <div className="heading-mid">
-                                <h1>Our <span className="green">Mission</span> </h1>
+                                <h1>// Our <span className="green">Mission</span> </h1>
                             </div>
 
                             <div className="paragraph-mid">
-                              <p>  At <span className="green"> Namo web tech</span>, our mission is to empower businesses with cutting-edge digital solutions that drive real impact. We believe technology should be more than just code—it should enable growth, creativity, and seamless experiences. That’s why we focus on crafting innovative web solutions, intuitive designs, and high-performance applications that help brands stand out. With an innovation-first mindset, a people-centric approach, and a commitment to quality, we go beyond just delivering projects—we build experiences. Our goal is to create technology that transforms ideas into reality, fosters growth, and makes a lasting impact in the digital world.
+                              <p>  At <span className="green"> Namo web tech</span>, our mission is to empower businesses with cutting-edge digital solutions that drive real impact. We believe technology should be more than just code—it should enable growth, creativity, and seamless experiences. That’s why we focus on crafting innovative web solutions, e digital world.
                               </p>
                             </div>
 
@@ -61,23 +73,25 @@ function Aboutus() {
                         <div className="mission-img">
                             <img src={our_misson_img} />
                         </div>
+                       
                     </div>
+                  
 
 
                     {/* our vision */}
                     <div className="our-vision">
                         <div className="content">
                             <div className="heading-mid">
-                                <h1>Our <span className="green">Vision</span> </h1>
+                                <h1>// Our <span className="green">Vision</span> </h1>
                             </div>
 
                             <div className="paragraph-mid">
-                              <p>  At <span className="green">Namowebtech</span>, our vision is to create a digital world where businesses, big or small, can harness the power of technology to innovate, grow, and thrive. We envision a future where seamless user experiences, smart automation, and cutting-edge web solutions drive success across industries. By constantly evolving, embracing new technologies, and prioritizing creativity, we aim to be at the forefront of digital transformation—helping brands not just keep up but lead in an ever-changing landscape. Our vision is to turn ideas into reality, challenges into opportunities, and businesses into success stories
+                              <p>  At <span className="green">Namowebtech</span>, our vision is to create a digital world where businesses, big or small, can harness the power of technology to innovate, grow, and thrive. We envision a future where seamless user experiences, smart automation, and cutting-edge web solutions drive success across industries.  stories
                                </p>
                             </div>
                         </div>
 
-                        <div className="mission-img">
+                        <div className="our-vision_img">
                             <img src={our_vision_img} />
                         </div>
                     </div>
@@ -88,7 +102,7 @@ function Aboutus() {
                     <div className="our-principle">
                         <div className="content">
                             <div className="heading-mid">
-                                <h1>Our <span className="green">Principle</span> </h1>
+                                <h1>//  Our <span className="green">Principle</span> </h1>
                             </div>
                         </div>
 
@@ -149,300 +163,195 @@ function Aboutus() {
 
 
                     <div className="our-team">
+    <div className="content">
+        <div className="heading-mid">
+            <h1>// Our <span className="green">Team</span></h1>
+        </div>
+    </div>
+
+    <div className="our-team-cards">
+        <div className="main-card">
+            <div className="avatar-icon-team">
+                <div className="avatar-img">
+                    <img src={firsrimg} className="rounded-full w-30 h-30 object-cover border-2 border-white"/>
+                </div>
+                <div className="linkdine-icon">
+                    <FaLinkedin/>
+                </div>
+            </div>
+            <div className="team-name">
+                <div className="name">
+                    <h1>Michael Smith</h1>
+                    <p>New York, USA</p>
+                </div>
+                <div className="post">
+                    <p>Senior Software Engineer</p>
+                </div>
+            </div>
+        </div>
+
+        <div className="main-card">
+            <div className="avatar-icon-team">
+                <div className="avatar-img">
+                    <img src={secondimg} className="rounded-full w-30 h-30 object-cover border-2 border-white"/>
+                </div>
+                <div className="linkdine-icon">
+                    <FaLinkedin/>
+                </div>
+            </div>
+            <div className="team-name">
+                <div className="name">
+                    <h1>Sarah Johnson</h1>
+                    <p>Los Angeles, USA</p>
+                </div>
+                <div className="post">
+                    <p>UI/UX Designer</p>
+                </div>
+            </div>
+        </div>
+
+        <div className="main-card">
+            <div className="avatar-icon-team">
+                <div className="avatar-img">
+                    <img src={thirdimg} className="rounded-full w-30 h-30 object-cover border-2 border-white"/>
+                </div>
+                <div className="linkdine-icon">
+                    <FaLinkedin/>
+                </div>
+            </div>
+            <div className="team-name">
+                <div className="name">
+                    <h1>David Brown</h1>
+                    <p>Chicago, USA</p>
+                </div>
+                <div className="post">
+                    <p>Frontend Developer</p>
+                </div>
+            </div>
+        </div>
+
+        <div className="main-card">
+            <div className="avatar-icon-team">
+                <div className="avatar-img">
+                    <img src={fourthimg} className="rounded-full w-30 h-30 object-cover border-2 border-white"/>
+                </div>
+                <div className="linkdine-icon">
+                    <FaLinkedin/>
+                </div>
+            </div>
+            <div className="team-name">
+                <div className="name">
+                    <h1>Emily Davis</h1>
+                    <p>San Francisco, USA</p>
+                </div>
+                <div className="post">
+                    <p>Backend Developer</p>
+                </div>
+            </div>
+        </div>
+
+        <div className="main-card">
+            <div className="avatar-icon-team">
+                <div className="avatar-img">
+                    <img src={fifthimg} className="rounded-full w-30 h-30 object-cover border-2 border-white"/>
+                </div>
+                <div className="linkdine-icon">
+                    <FaLinkedin/>
+                </div>
+            </div>
+            <div className="team-name">
+                <div className="name">
+                    <h1>Christopher Wilson</h1>
+                    <p>Seattle, USA</p>
+                </div>
+                <div className="post">
+                    <p>Project Manager</p>
+                </div>
+            </div>
+        </div>
+
+        <div className="main-card">
+            <div className="avatar-icon-team">
+                <div className="avatar-img">
+                    <img src={siximg} className="rounded-full w-30 h-30 object-cover border-2 border-white"/>
+                </div>
+                <div className="linkdine-icon">
+                    <FaLinkedin/>
+                </div>
+            </div>
+            <div className="team-name">
+                <div className="name">
+                    <h1>Amanda Martinez</h1>
+                    <p>Miami, USA</p>
+                </div>
+                <div className="post">
+                    <p>Marketing Head</p>
+                </div>
+            </div>
+        </div>
+
+        <div className="main-card">
+            <div className="avatar-icon-team">
+                <div className="avatar-img">
+                    <img src={seventhimg} className="rounded-full w-30 h-30 object-cover border-2 border-white"/>
+                </div>
+                <div className="linkdine-icon">
+                    <FaLinkedin/>
+                </div>
+            </div>
+            <div className="team-name">
+                <div className="name">
+                    <h1>Daniel Anderson</h1>
+                    <p>Austin, USA</p>
+                </div>
+                <div className="post">
+                    <p>DevOps Engineer</p>
+                </div>
+            </div>
+        </div>
+
+        <div className="main-card">
+            <div className="avatar-icon-team">
+                <div className="avatar-img">
+                    <img src={eightimg} className="rounded-full w-30 h-30 object-cover border-2 border-white"/>
+                </div>
+                <div className="linkdine-icon">
+                    <FaLinkedin/>
+                </div>
+            </div>
+            <div className="team-name">
+                <div className="name">
+                    <h1>Olivia Thomas</h1>
+                    <p>Boston, USA</p>
+                </div>
+                <div className="post">
+                    <p>Data Scientist</p>
+                </div>
+            </div>
+        </div>
+
+        <div className="main-card">
+            <div className="avatar-icon-team">
+                <div className="avatar-img">
+                    <img src={nineimg} className="rounded-full w-30 h-30 object-cover border-2 border-white"/>
+                </div>
+                <div className="linkdine-icon">
+                    <FaLinkedin/>
+                </div>
+            </div>
+            <div className="team-name">
+                <div className="name">
+                    <h1>William Harris</h1>
+                    <p>Denver, USA</p>
+                </div>
+                <div className="post">
+                    <p>Cyber Security Analyst</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
-                        <div className="content">
-                            <div className="heading-mid">
-                                <h1>Our <span className="green">Team</span> </h1>
-                            </div>
-
-                            <div className="paragraph-mid">
-                                <p>At <span className="green">Namowebtech</span> , our team is a blend of passionate innovators, creative thinkers, and tech enthusiasts dedicated to bringing ideas to life. With expertise across various domains, we collaborate to craft cutting-edge solutions that drive success</p>
-                            </div>
-                        </div>
-
-                        <div className="our-team-cards">
-                            <div className="main-card">
-                                <div className="avatar-icon-team">
-                                    <div className="avatar-img">
-                                        <img src={team_avatar} />
-
-                                    </div>
-
-                                    <div className="linkdine-icon">
-                                        <FaLinkedin
-                                        />
-                                    </div>
-                                </div>
-
-
-                                <div className="team-name">
-                                    <div className="name">
-                                        <h1>Jashon Jackab</h1>
-                                        <p>Washington, D.C</p>
-
-                                    </div>
-
-
-                                    <div className="post">
-                                        <p> Senior Software Engineer </p>
-                                    </div>
-                                </div>
-
-
-                            </div>
-
-
-                            <div className="main-card">
-                                <div className="avatar-icon-team">
-                                    <div className="avatar-img">
-                                        <img src={team_avatar} />
-
-                                    </div>
-
-                                    <div className="linkdine-icon">
-                                        <FaLinkedin
-                                        />
-                                    </div>
-                                </div>
-
-
-                                <div className="team-name">
-                                    <div className="name">
-                                        <h1>Jashon Jackab</h1>
-                                        <p>Washington, D.C</p>
-
-                                    </div>
-
-
-                                    <div className="post">
-                                        <p> Senior Software Engineer </p>
-                                    </div>
-                                </div>
-
-
-                            </div>
-
-                            <div className="main-card">
-                                <div className="avatar-icon-team">
-                                    <div className="avatar-img">
-                                        <img src={team_avatar} />
-
-                                    </div>
-
-                                    <div className="linkdine-icon">
-                                        <FaLinkedin
-                                        />
-                                    </div>
-                                </div>
-
-
-                                <div className="team-name">
-                                    <div className="name">
-                                        <h1>Jashon Jackab</h1>
-                                        <p>Washington, D.C</p>
-
-                                    </div>
-
-
-                                    <div className="post">
-                                        <p> Senior Software Engineer </p>
-                                    </div>
-                                </div>
-
-
-                            </div>
-
-
-                            <div className="main-card">
-                                <div className="avatar-icon-team">
-                                    <div className="avatar-img">
-                                        <img src={team_avatar} />
-
-                                    </div>
-
-                                    <div className="linkdine-icon">
-                                        <FaLinkedin
-                                        />
-                                    </div>
-                                </div>
-
-
-                                <div className="team-name">
-                                    <div className="name">
-                                        <h1>Jashon Jackab</h1>
-                                        <p>Washington, D.C</p>
-
-                                    </div>
-
-
-                                    <div className="post">
-                                        <p> Senior Software Engineer </p>
-                                    </div>
-                                </div>
-
-
-                            </div>
-
-                            <div className="main-card">
-                                <div className="avatar-icon-team">
-                                    <div className="avatar-img">
-                                        <img src={team_avatar} />
-
-                                    </div>
-
-                                    <div className="linkdine-icon">
-                                        <FaLinkedin
-                                        />
-                                    </div>
-                                </div>
-
-
-                                <div className="team-name">
-                                    <div className="name">
-                                        <h1>Jashon Jackab</h1>
-                                        <p>Washington, D.C</p>
-
-                                    </div>
-
-
-                                    <div className="post">
-                                        <p> Senior Software Engineer </p>
-                                    </div>
-                                </div>
-
-
-                            </div>
-
-                            <div className="main-card">
-                                <div className="avatar-icon-team">
-                                    <div className="avatar-img">
-                                        <img src={team_avatar} />
-
-                                    </div>
-
-                                    <div className="linkdine-icon">
-                                        <FaLinkedin
-                                        />
-                                    </div>
-                                </div>
-
-
-                                <div className="team-name">
-                                    <div className="name">
-                                        <h1>Jashon Jackab</h1>
-                                        <p>Washington, D.C</p>
-
-                                    </div>
-
-
-                                    <div className="post">
-                                        <p> Senior Software Engineer </p>
-                                    </div>
-                                </div>
-
-
-                            </div>
-
-                            <div className="main-card">
-                                <div className="avatar-icon-team">
-                                    <div className="avatar-img">
-                                        <img src={team_avatar} />
-
-                                    </div>
-
-                                    <div className="linkdine-icon">
-                                        <FaLinkedin
-                                        />
-                                    </div>
-                                </div>
-
-
-                                <div className="team-name">
-                                    <div className="name">
-                                        <h1>Jashon Jackab</h1>
-                                        <p>Washington, D.C</p>
-
-                                    </div>
-
-
-                                    <div className="post">
-                                        <p> Senior Software Engineer </p>
-                                    </div>
-                                </div>
-
-
-                            </div>
-
-
-                            <div className="main-card">
-                                <div className="avatar-icon-team">
-                                    <div className="avatar-img">
-                                        <img src={team_avatar} />
-
-                                    </div>
-
-                                    <div className="linkdine-icon">
-                                        <FaLinkedin
-                                        />
-                                    </div>
-                                </div>
-
-
-                                <div className="team-name">
-                                    <div className="name">
-                                        <h1>Jashon Jackab</h1>
-                                        <p>Washington, D.C</p>
-
-                                    </div>
-
-
-                                    <div className="post">
-                                        <p> Senior Software Engineer </p>
-                                    </div>
-                                </div>
-
-
-                            </div>
-
-
-                            <div className="main-card">
-                                <div className="avatar-icon-team">
-                                    <div className="avatar-img">
-                                        <img src={team_avatar} />
-
-                                    </div>
-
-                                    <div className="linkdine-icon">
-                                        <FaLinkedin
-                                        />
-                                    </div>
-                                </div>
-
-
-                                <div className="team-name">
-                                    <div className="name">
-                                        <h1>Jashon Jackab</h1>
-                                        <p>Washington, D.C</p>
-
-                                    </div>
-
-
-                                    <div className="post">
-                                        <p> Senior Software Engineer </p>
-                                    </div>
-                                </div>
-
-
-                            </div>
-
-
-
-
-                        </div>
-
-
-
-                    </div>
 
 
 
@@ -459,7 +368,7 @@ function Aboutus() {
                 <div className="connect-with-expert">
                 
                     <div className="contect-with-expert-left">
-                        <img src={team_avatar}/>
+                        <img src={seventhimg}/>
 
                     </div>
 
@@ -483,12 +392,12 @@ function Aboutus() {
                    <div className="connect-with-expert-right">
 
                     <div className="top-right-image">
-                    <img src={team_avatar}/>
+                    <img src={fifthimg}/>
                     
                     </div>
 
                     <div className="bottom-right-image">
-                    <img src={team_avatar}/>
+                    <img src={secondimg}/>
 
                     </div>
  

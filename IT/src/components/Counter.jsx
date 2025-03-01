@@ -25,7 +25,7 @@ function Counter() {
     <>
       <section className="about-us-section">
         <div className="heading-about-us">
-          <h1>About <span className="green">Us</span></h1>
+          <h1> // About <span className="green">Us</span></h1>
         </div>
         <div className="main-about-us">
 
@@ -65,7 +65,7 @@ function Counter() {
       <CardContainer>
         <div className="sub-tursted-section">
           <div className="tursted-section">
-            <h1 className="tursted-heading">Trusted by <span className="green"> Industry Leaders</span> </h1>
+            <h1 className="tursted-heading"> // Trusted by <span className="green"> Industry Leaders</span> </h1>
             <p className="tursted-para">Empowering Global Brands and Startups to Drive Innovation and Success with our unparalled
               expertise and commitment to excellence.</p>
           </div>

@@ -22,7 +22,7 @@ const OurClient = () => {
     {   id:3,
         image:client3,
         name: "Jane Smith",
-        designation: "asdkjasdjkhsdajk",
+        designation: "Amazone",
         quote: "The mobile app they developed for us is outstanding! The user experience is smooth and intuitive, and the app runs flawlessly on all devices. Their team paid attention to every detail, ensuring that the app is both functional and visually appealing."
 
 

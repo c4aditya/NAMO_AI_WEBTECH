@@ -30,7 +30,7 @@ export const AnimatedTestimonials = ({ testimonials, autoplay = false }) => {
 
     <>
       <div className="ourClients-heading">
-        <h1>Our Clients Our <span className="green"> Belivers </span></h1>
+        <h1>// Our Clients Our <span className="green"> Belivers </span></h1>
       </div>
     <div className="main-content">
 
