@@ -39,8 +39,8 @@ export const CardContainer = ({
 
     setBorderStyle(newBorderStyle);
 
-    const rotateX = (y - height / 2) / 25;
-    const rotateY = (x - width / 2) / 60;
+    const rotateX = (y - height / 2) / 100;
+    const rotateY = (x - width / 2) / 200;
     containerRef.current.style.transform = `rotateY(${rotateY}deg) rotateX(${rotateX}deg)`;
   };
 

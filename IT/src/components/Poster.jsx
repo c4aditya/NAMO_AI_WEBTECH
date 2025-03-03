@@ -6,9 +6,13 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 import { MdKeyboardArrowLeft } from "react-icons/md";
 import { useState, useEffect } from "react";
 import { BiRightTopArrowCircle } from "react-icons/bi";
+import { useNavigate } from "react-router-dom";
+
+
+
 function Poster() {
 
- 
+
     const [currentIndex, setCurrentIndex] = useState(0);
     const [animate, setAnimate] = useState(false);
 
@@ -32,17 +36,24 @@ function Poster() {
         setAnimate(true);
         const changeImageTimer = setInterval(() => {
             increment();
-        }, 5000000000);
+        }, 5000);
         return () => clearInterval(changeImageTimer);
     }, [currentIndex]);
+    const nevigate = useNavigate()
+
+    function pagechange(){
+       
+    nevigate("/contact_us")
+    }
+
 
     return (
         <>
-                        <div className="posters">
+            <div className="posters">
 
                 <div className="poster">
 
-                   
+
                     <div className="decrement" onClick={decrement}>
                         <h1>< MdKeyboardArrowLeft /></h1>
                     </div>
@@ -52,7 +63,7 @@ function Poster() {
                             <p>{Slides[currentIndex].title}</p>
                             <p>{Slides[currentIndex].description}</p>
                             <div className="button">
-                                <button className="btn">Get In Touch
+                                <button className="btn" onClick={pagechange}>Get In Touch
                                     <div className="movingarrow">
                                         <BiRightTopArrowCircle />
                                     </div>
@@ -69,7 +80,7 @@ function Poster() {
                     </div>
                 </div>
             </div>
-           
+
         </>
     );
 

@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import Aboutusimg from "../Images/aboutusimg.jpg";
 import Dotsimg from "../Images/about-shape-dots.png"
 import { CardContainer } from "./CardContainer";
+import { useNavigate } from "react-router-dom";
 function Counter() {
   const [count1, setCount1] = useState(0);
   const [count2, setCount2] = useState(0);
@@ -18,6 +19,12 @@ function Counter() {
 
     return () => clearInterval(interval);
   }, []);
+
+  const nevigate = useNavigate();
+
+  function pagechage(){
+    nevigate("/About_Us")
+  }
 
   return (
 
@@ -54,7 +61,7 @@ function Counter() {
             </div>
 
             <div className="readmoreButton">
-              <button className="readmore-btn">Read more </button>
+              <button className="readmore-btn" onClick={pagechage}>Read more </button>
             </div>
           </div>
         </div>
