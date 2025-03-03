@@ -1,5 +1,12 @@
 import { CardContainer } from "./CardContainer";
 import customerImg from "../Images/left-icon.png"
+
+// import customer logo
+import firstimage from "../OurCustomerslogo/01.jpeg"
+import secongimg from "../OurCustomerslogo/02.jpeg"
+import thirdimg from "../OurCustomerslogo/03.jpeg"
+import fourthimg from "../OurCustomerslogo/04.jpeg"
+import fifthimg from "../OurCustomerslogo/05.jpeg"
 function Industryes(){
     return(
         <>
@@ -302,7 +309,7 @@ function Industryes(){
 
                 <div className="heading-para-our-customer">
                     <div className="our-customer-heading">
-                        <h1>Our customer</h1>
+                        <h1> // Our <span className="green">customer</span> </h1>
                     </div>
 
                     <div className="our-customer-para">
@@ -318,58 +325,58 @@ function Industryes(){
                     </div>
 
                     <div className="customer-logos">
-                        <div className="row-logos">
+                        <div className="row-logos first">
                             <div className="frist-img">
-                              <img src="https://arch.dev/static/2d54da7c2d324f2d242d00e9696af269/0640a/gv-2.webp"/>
+                              <img src={secongimg} h-20/>
                             </div>
 
                             <div className="frist-img">
-                              <img src="https://arch.dev/static/2d54da7c2d324f2d242d00e9696af269/0640a/gv-2.webp"/>
+                              <img src={fifthimg}/>
                             </div>
 
                             <div className="frist-img">
-                              <img src="https://arch.dev/static/2d54da7c2d324f2d242d00e9696af269/0640a/gv-2.webp"/>
+                             <img src={secongimg}/>
                             </div>
 
                             <div className="frist-img">
-                              <img src="https://arch.dev/static/2d54da7c2d324f2d242d00e9696af269/0640a/gv-2.webp"/>
-                            </div>
-                        </div>
-
-                        <div className="row-logos">
-                            <div className="frist-img">
-                              <img src="https://arch.dev/static/2d54da7c2d324f2d242d00e9696af269/0640a/gv-2.webp"/>
-                            </div>
-
-                            <div className="frist-img">
-                              <img src="https://arch.dev/static/2d54da7c2d324f2d242d00e9696af269/0640a/gv-2.webp"/>
-                            </div>
-
-                            <div className="frist-img">
-                              <img src="https://arch.dev/static/2d54da7c2d324f2d242d00e9696af269/0640a/gv-2.webp"/>
-                            </div>
-
-                            <div className="frist-img">
-                              <img src="https://arch.dev/static/2d54da7c2d324f2d242d00e9696af269/0640a/gv-2.webp"/>
+                              <img src={thirdimg}/>
                             </div>
                         </div>
 
-
-                        <div className="row-logos">
+                        <div className="row-logos second">
                             <div className="frist-img">
-                              <img src="https://arch.dev/static/2d54da7c2d324f2d242d00e9696af269/0640a/gv-2.webp"/>
+                              <img src={fourthimg}/>
                             </div>
 
                             <div className="frist-img">
-                              <img src="https://arch.dev/static/2d54da7c2d324f2d242d00e9696af269/0640a/gv-2.webp"/>
+                              <img src={fifthimg}/>
                             </div>
 
                             <div className="frist-img">
-                              <img src="https://arch.dev/static/2d54da7c2d324f2d242d00e9696af269/0640a/gv-2.webp"/>
+                              <img src={firstimage}/>
                             </div>
 
                             <div className="frist-img">
-                              <img src="https://arch.dev/static/2d54da7c2d324f2d242d00e9696af269/0640a/gv-2.webp"/>
+                              <img src={thirdimg}/>
+                            </div>
+                        </div>
+
+
+                        <div className="row-logos third">
+                            <div className="frist-img">
+                              <img src={firstimage}/>
+                            </div>
+
+                            <div className="frist-img">
+                              <img src={secongimg}/>
+                            </div>
+
+                            <div className="frist-img">
+                              <img src={thirdimg}/>
+                            </div>
+
+                            <div className="frist-img">
+                              <img src={fourthimg}/>
                             </div>
                         </div>
                         

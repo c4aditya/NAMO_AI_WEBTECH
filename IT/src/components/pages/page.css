@@ -416,6 +416,120 @@ our portfoliyo section start css
     gap: 20px;
 }
 
+/* 
+--------------------------------
+contact us css start
+--------------------------------
+
+
+*/
+.contact-top{
+    padding-bottom: 8%;
+}
+.poster-contact-us{
+    padding: 10px;
+    
+    display: flex;
+    gap: 4%;
+    justify-content: space-between;
+}
+.content-contact-us{
+    width: 42%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact-us-contant{
+    margin-top: 15%;
+    border-radius: 10px;
+    padding: 15px;
+    border: 1px solid #23DF75;
+     justify-content: space-between;
+    display: flex;
+    gap: 4%;
+}
+
+.heading-contactus{
+    font-size: 2em;
+    font-weight: 700;
+}
+.para-contactus{  
+    font-weight: 600;
+}
+
+.animation-contact-us{   
+    width: 53%;
+}
+
+
+.left-content-contact-us{
+    justify-content: center;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+  
+    width: 45%;
+}
+
+.para p{
+    text-align: justify;
+    word-break: break-all;
+}
+
+
+.form-right-contact-us{
+    width: 45%;
+}
+
+.form-contact-us{
+    background-color: white;
+    padding: 20px;
+   border-radius: 10px;
+    
+}
+
+.form-contact-us input,select,textarea{
+    border: 1px solid black;
+ 
+   margin-bottom: 20px;
+    border-radius: 10px;
+ 
+    width: 100%;
+    padding: 15px;
+    color: black;
+    
+}
+
+.form-contact-us button{
+    color: white;
+
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #23DF75;
+
+    width: 30%;
+    border-radius: 20px;
+}
+
+.responsive-map {
+    position: relative;
+    overflow: hidden;
+    height: auto;
+    padding-bottom: 27.25%; 
+    height: 0;
+  }
+  
+  .responsive-map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    border: 0;
+  }
+
+
+
 
 
 

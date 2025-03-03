@@ -880,22 +880,50 @@ color: white;
 
 
 /* our customers start */
+
 .top-our-customer{
-  
+   
     color:white;
 }
 
+.heading-para-our-customer{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.frist-img img{
+    color: white;
+}
+
+.customer-logos{
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+}
+
+.frist-img img {
+    border-radius: 10px;
+    width: 100px;  /* Sab images same width */
+    height: 100px; /* Sab images same height */
+    object-fit: contain; /* Image distor na ho */
+}
+
+
+
+
+
+.our-customer-heading h1{
+    font-size: 2rem;
+    font-weight: 700;
+}
 
 .left-img-content-right-img{
-  
-     display: grid;
-     grid-template-columns: 30% 40% 30%;
-     
-    
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
 }
 
 .row-logos{
-    margin-top: 20px;
+    padding: 4px;
     display: flex;
     gap: 20px;
 }
@@ -904,18 +932,50 @@ color: white;
     display: flex;
     justify-content: center;
     border: 1px solid wheat;
-    padding: 10px;
+    width: 100px;
+    height: 100px;
     border-radius: 10px;
 }
+
 .frist-img img{
     width: 80%;
 }
 
-
-
 .right-image-customer img{
     rotate: 180deg;
 }
+
+
+.first .frist-img  {
+    animation: moveLeftToRight 3s infinite ease-in-out;
+}
+
+
+.second .frist-img  {
+    animation: moveRightToLeft 3s infinite ease-in-out;
+}
+
+
+.third .frist-img  {
+    animation: moveLeftToRight 3s infinite ease-in-out;
+}
+
+
+@keyframes moveLeftToRight {
+    0% { transform: translateX(-15px); }
+    50% { transform: translateX(15px); }
+    100% { transform: translateX(-15px); }
+}
+
+
+@keyframes moveRightToLeft {
+    0% { transform: translateX(15px); }
+    50% { transform: translateX(-15px); }
+    100% { transform: translateX(15px); }
+}
+
+
+/* animation in logos  */
 
 /* our customer ends */
 
