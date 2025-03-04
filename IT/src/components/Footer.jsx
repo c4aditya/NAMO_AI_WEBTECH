@@ -76,7 +76,7 @@ function Footer() {
                     </div>
                 </div>
             </section>
-
+            
             <div className="copyright">
                 <div className="lelft-copyright">
                     <ul>
@@ -84,6 +84,8 @@ function Footer() {
                     </ul>
                 </div>
             </div>
+
+            
         </>
     );
 }

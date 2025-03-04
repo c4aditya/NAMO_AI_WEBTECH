@@ -122,6 +122,7 @@
 }
 
 
+
 /* nav bar end  */
 
 /* Mobile Styles */
@@ -133,6 +134,42 @@
     font-size: 24px;
     cursor: pointer;
 }
+
+/*------------------------------
+  after clicking hamburger css
+  ------------------------------
+*/
+
+.main-nav-link-open{
+      display: none;
+      position: absolute;
+      color: white;
+      width: 80%;
+      top: 15%;
+      right: 10%;
+      z-index: 9;
+  
+    
+}
+
+.nav-links-ham{
+    padding: 10px;
+    border: 2px solid white;
+    background-color: #008000;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.main-nav-link-open.show{
+    display: block;
+}
+
+
+
+
+
 
 /*  poster starts */
 .posters {
@@ -1200,13 +1237,14 @@ color: white;
 
 /* responsive design  */
 @media screen and (max-width : 1100px) {
+
     .nav-links {
         width: 70%;
     }
     .animation svg {
         width: 24rem !important;
     }
-
+    
     .btn {
         width: 45%;
     }
@@ -1538,9 +1576,43 @@ color: white;
     grid-template-columns: repeat(1 ,1fr);
 }
 
+/* page css starts */
 
+/* --------------------------
+   About us  css start
+   --------------------------
+*/
 
+.heading h1{
+    margin-top: 15%;
+    font-size: 1.5rem;
+}
 
+.paragraph p{
+    font-size: 1rem;
+}
+
+.learnmore-btn button{
+    width: 50%;
+    font-size: 1rem;
+}
+.heading-mid h1{
+    font-size: 1.5rem;
+}
+
+.paragraph-mid {
+    font-size: 1rem;
+}
+
+.mission-img img{
+    width: 100%;
+}
+.our-vision_img img{
+    width: 100%;
+}
+.contect-with-expert-left img {
+    width: 100%;
+}
 }
 
 
@@ -1893,6 +1965,76 @@ color: white;
 
 /* footer section */
 
+/* pages css statrt  */
+/* ------------------------
+    About us page 
+   ------------------------
+*/
+
+.sub-top{
+       
+    grid-template-columns: repeat(1 ,1fr);
+    
+} 
+
+.heading h1{
+    font-size: 1.3rem;
+    margin-top: 30px;
+}
+
+.paragraph p{
+    font-size: 1rem;
+}
+
+.learnmore-btn button{
+    width: 100%;
+    font-size: 16px;
+}
+
+.our-mission{
+    flex-direction: column;
+}
+
+.heading-mid{
+    font-size: 1.3rem;
+}
+.paragraph-mid {
+    font-size: 1rem;
+}
+
+.our-vision {
+    flex-direction: column;
+}
+.connect-with-expert{
+
+    display: flex;
+    flex-direction: column;
+}
+.top-right-image{
+    display: none;
+}
+
+.bottom-right-image{
+    display: none;
+}
+.content-connect-heading {
+    font-size: 1.3rem;
+}
+.content-connect-para {
+    width: 100%;
+}
+
+.content-connect-button{
+    width: 100%;
+}
+.contect-with-expert-left img {
+    width: 60%;
+}
+.our-team-cards{
+     
+    width: 100%;
+}
+
 }
 
 
@@ -2207,6 +2349,11 @@ color: white;
     }
 
     .btn-indus{
+        width: 100%;
+    }
+
+    .our-team-cards{
+     
         width: 100%;
     }
 
@@ -2529,5 +2676,7 @@ color: white;
     .btn-indus{
         width: 100%;
     }
+   
+
 
 }

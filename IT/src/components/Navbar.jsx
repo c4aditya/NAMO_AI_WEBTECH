@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { Link } from "react-router-dom";
-
+import { RxCross1 } from "react-icons/rx";
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsopen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
   // Scroll Event Listener
@@ -23,37 +23,74 @@ const Navbar = () => {
     };
   }, []);
 
+  // Window Resize Event Listener to hide menu on large screens
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth > 900) {
+        setIsopen(false);
+      }
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
+  // Disable scroll when menu is open
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = "hidden"; // Disable scroll
+    } else {
+      document.body.style.overflow = "auto"; // Enable scroll
+    }
+  }, [isOpen]);
+
+  function openNavbar() {
+    setIsopen(!isOpen);
+  }
+
+  function closeNav() {
+    setIsopen(false);
+  }
+
   return (
-    <nav className={`navbar ${scrolled ? "scrolled" : ""}`}>
-      <div className="nav-container">
-        {/* Logo */}
-        <h1 className="logo">NAMO AI WEBTECH</h1>
+    <>
+      <nav className={`navbar ${scrolled ? "scrolled" : ""}`}>
+        <div className="nav-container">
+          <h1 className="logo">NAMO AI WEBTECH</h1>
+          <ul className="nav-links">
+            <li><Link to="/" onClick={closeNav}>HOME</Link></li>
+            <li><Link to="/About_Us" onClick={closeNav}>ABOUT US</Link></li>
+            <li><Link to="/portfoliyo" onClick={closeNav}>SERVICES</Link></li>
+            <li><Link to="/portfoliyo" onClick={closeNav}>PROJECT</Link></li>
+            <li><Link to="/contact_us" onClick={closeNav}>CONTACT US</Link></li>
+          </ul>
 
-        {/* Desktop Menu */}
-        <ul className={`nav-links ${isOpen ? "open" : ""}`}>
-         
-        <li><Link to="/">HOME</Link></li>
-        <li><Link to="/About_Us">ABOUT US </Link></li>
+          <button onClick={openNavbar} className="menu-btn">
+            <GiHamburgerMenu />
+          </button>
+        </div>
+      </nav>
 
-        <li><Link to="/portfoliyo">SERVICES</Link></li>
-        <li><Link to="/portfoliyo">PROJECT</Link></li>
-        <li><Link to="/contact_us">CONTACT US </Link></li>
-        </ul>
-
-        {/* Mobile Menu Button */}
-        <button onClick={() => setIsOpen(!isOpen)} className="menu-btn">
-          <GiHamburgerMenu />
-        </button>
-      </div>
-    </nav>
+      {isOpen && window.innerWidth <= 900 && (
+        <div className="main-nav-link-open show">
+          <div className="nav-links-ham">
+            <ul>
+              <li><Link to="/" onClick={closeNav}>HOME</Link></li>
+              <li><Link to="/About_Us" onClick={closeNav}>ABOUT US</Link></li>
+              <li><Link to="/portfoliyo" onClick={closeNav}>SERVICES</Link></li>
+              <li><Link to="/portfoliyo" onClick={closeNav}>PROJECT</Link></li>
+              <li><Link to="/contact_us" onClick={closeNav}>CONTACT US</Link></li>
+            </ul>
+            <div onClick={closeNav} className="cross">
+              <RxCross1 />
+            </div>
+          </div>
+        </div>
+      )}
+    </>
   );
 };
-
-// Reusable NavItem Component
-const NavItem = ({ text }) => (
-  <li className="nav-item">
-    <span>{text}</span>
-  </li>
-);
 
 export default Navbar;
