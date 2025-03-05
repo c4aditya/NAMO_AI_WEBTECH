@@ -39,7 +39,7 @@ export const HeroParallax = ({ products }) => {
       </div>
     </div>
     
-    <div ref={ref} className="main-cards-portfoliyo h-[350vh]  py-40 overflow-hidden antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d] " >
+    <div ref={ref} className="main-cards-portfoliyo overflow-hidden antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d] " >
       
     <Header/>
       
@@ -61,6 +61,27 @@ export const HeroParallax = ({ products }) => {
         </motion.div>
       </motion.div>
     </div>
+    </div>
+
+    <div className="portfoliyo-02">
+     <div className="portfoliyo-images">
+      {/* <button>
+        <a href="https://www.google.com">
+        <img src="" alt="img not found"></img>
+        </a>
+
+
+      </button> */}
+
+      {
+        products.map((product,index)=>(
+          <img key={index} src={product.thumbnail} />
+        ))
+      }
+      
+        
+
+     </div>
     </div>
     </>
   );
