@@ -3,6 +3,7 @@ import { FaLaptopCode } from "react-icons/fa";
 import { MdCampaign } from "react-icons/md";
 import { MdSmartphone } from "react-icons/md";
 import { FaBrain } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 
 
 const services = [
@@ -50,6 +51,11 @@ const services = [
 ];
 
 const Services = () => {
+  const neigate = useNavigate()
+  function gotoservicePage(){
+    neigate("/servies")
+   
+  }
   return (
     <>
    
@@ -57,7 +63,7 @@ const Services = () => {
   
     <div className="services-container">
       {services.map((service) => (
-        <div key={service.id} className={`service-card ${service.bgColor}`}>
+        <div onClick={gotoservicePage} key={service.id} className={`service-card ${service.bgColor}`}>
           <div className="icon-container ">{service.icon}</div>
           <h3 className="service-title">{service.title}</h3>
           <p className="service-description">{service.description}</p>

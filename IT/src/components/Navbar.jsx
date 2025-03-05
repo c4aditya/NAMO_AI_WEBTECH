@@ -62,7 +62,7 @@ const Navbar = () => {
           <ul className="nav-links">
             <li><Link to="/" onClick={closeNav}>HOME</Link></li>
             <li><Link to="/About_Us" onClick={closeNav}>ABOUT US</Link></li>
-            <li><Link to="/portfoliyo" onClick={closeNav}>SERVICES</Link></li>
+            <li><Link to="/servies" onClick={closeNav}>SERVICES</Link></li>
             <li><Link to="/portfoliyo" onClick={closeNav}>PROJECT</Link></li>
             <li><Link to="/contact_us" onClick={closeNav}>CONTACT US</Link></li>
           </ul>
@@ -79,7 +79,7 @@ const Navbar = () => {
             <ul>
               <li><Link to="/" onClick={closeNav}>HOME</Link></li>
               <li><Link to="/About_Us" onClick={closeNav}>ABOUT US</Link></li>
-              <li><Link to="/portfoliyo" onClick={closeNav}>SERVICES</Link></li>
+              <li><Link to="/services" onClick={closeNav}>SERVICES</Link></li>
               <li><Link to="/portfoliyo" onClick={closeNav}>PROJECT</Link></li>
               <li><Link to="/contact_us" onClick={closeNav}>CONTACT US</Link></li>
             </ul>

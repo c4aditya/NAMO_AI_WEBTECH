@@ -819,7 +819,7 @@ color: white;
     font-weight: 700;
 }
 .para-industryes{
-    width: 90%;
+    width: 100%;
     text-align: justify;
 }
 
@@ -1613,6 +1613,24 @@ color: white;
 .contect-with-expert-left img {
     width: 100%;
 }
+.heading-contactus{
+    font-size: 1.5rem;
+} 
+.para-contactus{
+    text-align: justify;
+    word-break: break-all;
+}
+
+.contact-us-contant{
+    flex-direction: column;
+}
+.left-content-contact-us{
+    width: 100%;
+}
+.form-right-contact-us{
+    margin-top: 20px;
+    width: 100%;
+}
 }
 
 
@@ -1906,6 +1924,22 @@ color: white;
 
   /* industries section */
 
+  .heading-about-us h1 , .our-process-heading h1 , .our-customer-heading h1 
+  ,.ourClients-heading{
+    font-size: 1.5rem;
+  }
+
+      .left-side-test-content p {
+        text-align: justify;
+        border: 2px solid red;
+        width: 100%;
+      }
+
+     .title p{
+        text-align: center;
+     }
+ 
+
   .main-our-industary {
         
     grid-template-columns: repeat(1 ,1fr);
@@ -1935,7 +1969,45 @@ color: white;
 .stepnumber{
     margin-top: 4px;
 }
+.simple ul li{
+    font-size: 1rem;
+}
+
+.para-industryes p{
+   
+    width: 100%;
+    font-size: 1rem;
+}
 /* our client section  */
+.our-clients{
+    padding-top: 0px;
+}
+.left-image-customer{
+    display: none;
+}
+.right-image-customer{
+    display: none;
+}
+.frist-img {
+
+    border: none;
+    height: 60px;
+    width: 50px;
+}
+.frist-img img{
+    height: 50px;
+        object-fit: contain;
+}
+.left-img-content-right-img{
+   
+    padding: 10px;
+    
+    display: flex;
+    margin-top: 30px;
+}
+.frist-img img{
+    width: 100%;
+}
 .main-our-client{
     padding: 0px;
 }
@@ -1961,6 +2033,18 @@ color: white;
 
 .left-side-test-content h3{
     text-align: center;
+}
+
+.contact-us{
+    margin-top: 20px;
+}
+.footer-line {
+    margin-top: 10px;
+}
+
+
+.lelft-copyright ul li {
+    margin-left: 10px;
 }
 
 /* footer section */
@@ -2035,9 +2119,60 @@ color: white;
     width: 100%;
 }
 
-.main-cards-portfoliyo{
-    border: 2px solid red;
-   
+
+
+/* contact us section  */
+
+.poster-contact-us{
+ 
+   flex-direction: column-reverse;
+
+}
+
+
+.animation-contact-us{
+   margin-top: 10%;
+    width: 100%;
+}
+
+.content-contact-us{
+    width: 100%;
+}
+
+.heading-contactus{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.para-contactus {
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.contact-us-contant{
+    flex-direction: column;
+}
+.left-content-contact-us{
+    width: 100%;
+}
+
+.form-right-contact-us{
+    width: 100%;
+}
+
+.form-contact-us{
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.form-contact-us input, select, textarea{
+    padding: 10px;
+}
+
+.form-contact-us button{
+    width: 100%;
 }
 
 }
