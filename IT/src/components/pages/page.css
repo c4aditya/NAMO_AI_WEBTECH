@@ -533,8 +533,10 @@ contact us css start
     gap: 100px;
   }
 
-  .sub-card-out-service{
 
+
+  .sub-card-out-service{
+   border: 1px solid white;
     padding: 3% 1%;
    
     width: 95%;
@@ -559,6 +561,17 @@ contact us css start
    
     width: 100%;
 
+}
+
+.heading-our-service{
+  
+    text-align: center;
+    width: 50%;
+    margin:5% auto
+    
+}
+.heading-our-service h1{
+    font-size: 2rem;
 }
 
 .content-our-service{
