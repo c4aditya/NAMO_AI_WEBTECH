@@ -13,7 +13,7 @@ function Industryes(){
         <div className="movingcarda-background-color">
  
         <div className="main-class-our-industryes">
-        <CardContainer  >
+        <CardContainer>
    
                      <h1 className="mh">// Industries Were we are <span className="green"> work with </span></h1>
               
@@ -327,7 +327,7 @@ function Industryes(){
                     <div className="customer-logos">
                         <div className="row-logos first">
                             <div className="frist-img">
-                              <img src={secongimg} h-20/>
+                              <img src={secongimg} />
                             </div>
 
                             <div className="frist-img">

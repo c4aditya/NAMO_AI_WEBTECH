@@ -27,8 +27,6 @@ function Counter() {
   }
 
   return (
-
-
     <>
       <section className="about-us-section">
         <div className="heading-about-us">
