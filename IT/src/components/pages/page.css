@@ -692,5 +692,36 @@ contact us css start
     
 }
 
+/* technology we are work with css start */
 
+
+.technology-we-work-with{
+    border: 1px solid white ;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #181818;
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    
+    
+}
+.headind-technology{   
+    color: white;
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.main-technology{
+   
+    background-color: black;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.imag-tech{
+    
+    padding: 20px;
+}
 

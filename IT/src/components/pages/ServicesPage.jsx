@@ -1,12 +1,10 @@
 import firstImg from "../../services_img/01.png";
 import secondImg from "../../services_img/02.png";
 import thirdImg from "../../services_img/03.png";
-// import fourthImg from "../../services_img/04.png";
 import FiftthImg from "../../services_img/05.png";
-import SixitnImg from "../../services_img/06.png"
 import { FaArrowCircleRight } from "react-icons/fa";
 import { CardContainer } from "../CardContainer";
-
+import TestimonialTooltip from "./TestimonialTooltip";
 
 function ServicesPage() {
     return (
@@ -187,7 +185,21 @@ function ServicesPage() {
                         </CardContainer>
 
                 </div>
+               
+               
             </div>
+            <div className="main-technology">
+            <div className="technology-we-work-with">
+                  <div className="headind-technology">
+                    <h1>// Technology We <span className="green"> Work With</span> </h1>
+                  </div>
+
+                  <div className="imag-tech">
+                  <TestimonialTooltip/>
+                  </div>
+                </div>
+                </div>
+           
             
         </>
     )
