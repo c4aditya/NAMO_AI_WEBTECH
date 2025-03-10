@@ -693,7 +693,20 @@ contact us css start
 }
 
 /* technology we are work with css start */
-
+.full-height{
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+}
+.main-servive-div{
+    width: 85%;
+    margin:5% auto;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+   
+   
+    }
 
 .technology-we-work-with{
     border: 1px solid white ;
@@ -713,15 +726,148 @@ contact us css start
     font-weight: 700;
 }
 
-.main-technology{
-   
+
+.main-technology{   
     background-color: black;
     padding-top: 5%;
     padding-bottom: 5%;
+}
+.main-content-service-page{
+    -webkit-box-shadow: 0 0 10px #fff;
+    box-shadow: 0 0 10px #fff;
+    border-radius: 20px;
+    flex-direction: column;
+    gap: 12px;
+    display: flex;
+    padding: 10px;
+
+    width: 70%;
 }
 
 .imag-tech{
     
     padding: 20px;
+}
+
+.heading-services{
+    color: #23DF75;
+  
+    font-size: 1.7rem;
+    font-weight: 700;
+
+}
+.content-service-pages{
+    
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.para-services p{
+    font-weight: 700;
+    text-align: justify;
+    word-break: break-all;
+}
+.sidepages{
+    padding: 30px 20px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 10px #fff;
+    box-shadow: 0 0 10px #fff;
+    width: 29%;
+    background-color: #181818;
+   
+}
+.sidepages h1{
+    color: #23DF75;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.first-container{
+    font-weight: 700;    
+    border: 0.3px solid #23DF75;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.image-service-page{
+   
+    justify-content: center;
+    display: flex;
+    
+
+}
+
+
+
+.image-service-page img{
+    width:  80%;
+}
+
+
+.our-development-services{
+
+   
+    display: flex;
+    width: 85%;
+    margin:5% auto;
+    justify-content: space-between;
+}
+
+.need-service{
+    -webkit-box-shadow: 0 0 10px #fff;
+    box-shadow: 0 0 10px #fff;
+    border-radius: 20px;
+    width: 28%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3%;
+}
+.need-service h1{
+    font-size: 1.6rem;
+}
+
+.need-service-heading{
+  
+    color: #23DF75;
+    font-weight: 600;
+}
+
+.our-development-main{
+    width: 70%;
+}
+
+.our-development-main-service{
+  
+    -webkit-box-shadow: 0 0 10px #fff;
+    box-shadow: 0 0 10px #fff;
+    border-radius: 20px;
+   
+    display: grid;
+    padding: 10px;
+    gap: 20px;
+    grid-template-columns: repeat(3 ,1fr);
+}
+
+.first-img{
+    border: 0.4px solid green;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;     
+}
+
+.button-service{
+    border: 0.5px solid green;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+
 }
 

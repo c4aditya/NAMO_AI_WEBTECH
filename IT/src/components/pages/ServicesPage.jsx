@@ -6,7 +6,19 @@ import { FaArrowCircleRight } from "react-icons/fa";
 import { CardContainer } from "../CardContainer";
 import TestimonialTooltip from "./TestimonialTooltip";
 
+
+import { useNavigate } from "react-router-dom";
+
+
+
+
 function ServicesPage() {
+    const nevigate = useNavigate()
+    function servivedetails(){
+      nevigate("/Websitedev")
+    }
+
+    
     return (
         <>
         <div className="top services-top">
@@ -71,7 +83,7 @@ function ServicesPage() {
                         </div>
 
                         <div className="arrow-main">
-                            <div className="svg-araow">
+                            <div className="svg-araow" onClick={servivedetails}>
                             <FaArrowCircleRight/>
                             </div>
                         </div>

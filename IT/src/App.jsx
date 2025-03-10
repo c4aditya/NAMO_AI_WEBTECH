@@ -6,7 +6,8 @@ import { HeroParallaxDemo } from "./components/pages/Products";
 import Contact from "./components/pages/ContactUs";
 import About from "./components/pages/Aboutus";
 import ServicesPage from "./components/pages/ServicesPage";
-import ScrollToTop from "./components/ScrollToTop"; // ✅ Import ScrollToTop
+import ScrollToTop from "./components/ScrollToTop"; 
+import Websitedev from "./components/servicesPages/Websitedev";
 
 
 import "./components/main.css";
@@ -24,6 +25,7 @@ function App() {
         <Route path="/contact_us" element={<Contact />} />
         <Route path="/About_Us" element={<About />} />
         <Route path="/servies"  element={<ServicesPage/>}/>
+        <Route path="/Websitedev" element={<Websitedev/>} />
       </Routes>
       <Footer />
     </Router>
