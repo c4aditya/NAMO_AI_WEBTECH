@@ -8,7 +8,7 @@ export const CardContainer = ({
   children,
   className,
   containerClassName,
-  borderColor = "#1D6F40", 
+  borderColor = "#1D6F40",
 }) => {
   const containerRef = useRef(null);
   const [isMouseEntered, setIsMouseEntered] = useState(false);

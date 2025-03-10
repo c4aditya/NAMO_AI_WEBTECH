@@ -18,6 +18,14 @@ function ServicesPage() {
       nevigate("/Websitedev")
     }
 
+    function digitalmakting (){
+        nevigate("/digitalmarkting")
+    }
+
+    function appdevs(){
+        nevigate("/appdevelopment")
+    }
+
     
     return (
         <>
@@ -119,7 +127,7 @@ function ServicesPage() {
                             </div>
                         </div>
 
-                        <div className="arrow-main">
+                        <div className="arrow-main" onClick={appdevs}>
                             <div className="svg-araow blue">
                             <FaArrowCircleRight/>
                             </div>
@@ -155,7 +163,7 @@ function ServicesPage() {
                         </div>
 
                         <div className="arrow-main">
-                            <div className="svg-araow">
+                            <div className="svg-araow" onClick={digitalmakting}>
                             <FaArrowCircleRight/>
                             </div>
                         </div>
