@@ -1,52 +1,60 @@
 import websiteImg from "../../services_img/01.png"
-
+import { useNavigate } from "react-router-dom";
 function Websitedev(){
+
+    
+    const nevigate = useNavigate();
+
+    const handlenevigate = (path) =>{
+        nevigate(path)
+
+    }
     return(
         <>
         <div className="full-height">
         <div className="main-servive-div">
 
-            <div className="sidepages">
-                <h1> Our Category</h1>
-                <hr></hr>
+        <div className="sidepages">
+                        <h1> Our Category</h1>
+                        <hr></hr>
 
-                <div className="first-container bg-green-500">
+                        <div className="first-container bg-green-500">
 
-                    <button className="btn-page ">WebSite development</button>
+                            <button className="btn-page" onClick={()=>handlenevigate("/Websitedev")}>WebSite development</button>
 
-                </div>
+                        </div>
 
-                <div className="first-container">
+                        <div className="first-container ">
 
-                <button className="btn-page">Digital Marketing</button>
-                    
-                </div>
+                            <button className="btn-page" onClick={()=>handlenevigate("/digitalmarkting")} >Digital Marketing</button>
 
-                <div className="first-container">
+                        </div>
 
-                <button className="btn-page">App Development</button>
-                    
-                </div>
+                        <div className="first-container ">
 
-                <div className="first-container">
+                            <button className="btn-page"onClick={()=> handlenevigate("/appdevelopment")}>App Development</button>
 
-                <button className="btn-page">UI development</button>
-                    
-                </div>
+                        </div>
 
-                <div className="first-container">
+                        <div className="first-container">
 
-                <button className="btn-page">AI integration</button>
-                    
-                </div>
+                            <button className="btn-page" >UI development</button>
 
-                <div className="first-container">
+                        </div>
 
-                <button className="btn-page">Softwere Development</button>
-                    
-                </div>
+                        <div className="first-container">
 
-            </div>
+                            <button className="btn-page">AI integration</button>
+
+                        </div>
+
+                        <div className="first-container">
+
+                            <button className="btn-page">Softwere Development</button>
+
+                        </div>
+
+                    </div>
 
             <div className="main-content-service-page">
                 <div className="image-service-page">

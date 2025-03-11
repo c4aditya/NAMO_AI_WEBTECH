@@ -1,51 +1,60 @@
 import digiImg from "../../services_img/03.png"
+import { useNavigate } from "react-router-dom";
 function Digitalmarkting(){
+
+    
+    const nevigate = useNavigate();
+
+    const handlenevigate = (path) =>{
+        nevigate(path)
+
+    }
     return(
       <>
              <div className="full-height">
              <div className="main-servive-div">
      
-                 <div className="sidepages">
-                     <h1> Our Category</h1>
-                     <hr></hr>
-     
-                     <div className="first-container ">
-     
-                         <button className="btn-page " onClick={()=>servivedetails}    >WebSite development</button>
-     
-                     </div>
-     
-                     <div className="first-container bg-green-500">
-     
-                     <button className="btn-page">Digital Marketing</button>
-                         
-                     </div>
-     
-                     <div className="first-container">
-     
-                     <button className="btn-page">App Development</button>
-                         
-                     </div>
-     
-                     <div className="first-container">
-     
-                     <button className="btn-page">UI development</button>
-                         
-                     </div>
-     
-                     <div className="first-container">
-     
-                     <button className="btn-page">AI integration</button>
-                         
-                     </div>
-     
-                     <div className="first-container">
-     
-                     <button className="btn-page">Softwere Development</button>
-                         
-                     </div>
-     
-                 </div>
+             <div className="sidepages">
+                        <h1> Our Category</h1>
+                        <hr></hr>
+
+                        <div className="first-container ">
+
+                            <button className="btn-page" onClick={()=>handlenevigate("/Websitedev")}>WebSite development</button>
+
+                        </div>
+
+                        <div className="first-container bg-green-500">
+
+                            <button className="btn-page" onClick={()=>handlenevigate("/digitalmarkting")} >Digital Marketing</button>
+
+                        </div>
+
+                        <div className="first-container ">
+
+                            <button className="btn-page" onClick={()=> handlenevigate("/appdevelopment")}>App Development</button>
+
+                        </div>
+
+                        <div className="first-container">
+
+                            <button className="btn-page" >UI development</button>
+
+                        </div>
+
+                        <div className="first-container">
+
+                            <button className="btn-page">AI integration</button>
+
+                        </div>
+
+                        <div className="first-container">
+
+                            <button className="btn-page">Softwere Development</button>
+
+                        </div>
+
+                    </div>
      
                  <div className="main-content-service-page">
                      <div className="image-service-page">
