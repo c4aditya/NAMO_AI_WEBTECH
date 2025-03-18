@@ -50,9 +50,9 @@ function ServicesPage() {
                                 <div className="heading-title">
                                     <h1> <span className="green">01 - </span>Web Site Development</h1>
                                 </div>
-                                <div className="para-title">
+                                {/* <div className="para-title">
                                     <p>This is website development card</p>
-                                </div>
+                                </div> */}
                             </div>
                             <div className="para-our-service">
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit...</p>
@@ -76,9 +76,9 @@ function ServicesPage() {
                                 <div className="heading-title">
                                     <h1> <span className="green">02 - </span>App Development</h1>
                                 </div>
-                                <div className="para-title">
+                                {/* <div className="para-title">
                                     <p>This is App Development card</p>
-                                </div>
+                                </div> */}
                             </div>
                             <div className="para-our-service">
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit...</p>
@@ -102,9 +102,9 @@ function ServicesPage() {
                                 <div className="heading-title">
                                     <h1> <span className="green">03 - </span>Digital Marketing</h1>
                                 </div>
-                                <div className="para-title">
+                                {/* <div className="para-title">
                                     <p>This is Digital Marketing</p>
-                                </div>
+                                </div> */}
                             </div>
                             <div className="para-our-service">
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit...</p>
@@ -128,9 +128,9 @@ function ServicesPage() {
                                 <div className="heading-title">
                                     <h1> <span className="green">04 - </span>AI Integration</h1>
                                 </div>
-                                <div className="para-title">
+                                {/* <div className="para-title">
                                     <p>This is AI integration card</p>
-                                </div>
+                                </div> */}
                             </div>
                             <div className="para-our-service">
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit...</p>
@@ -150,7 +150,7 @@ function ServicesPage() {
                             <h1>// Technology We <span className="green"> Work With</span></h1>
                         </div>
                         <div className="imag-tech">
-                            <TestimonialTooltip />
+                            <TestimonialTooltip  />
                         </div>
                     </div>
                 </div>

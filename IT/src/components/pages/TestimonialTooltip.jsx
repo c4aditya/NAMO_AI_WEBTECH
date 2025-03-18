@@ -84,7 +84,7 @@ const TestimonialTooltip = () => {
   ];
 
   return (
-    <div className="flex flex-row items-center justify-center w-full gap-10">
+    <div className="flex flex-row items-center justify-center w-full gap-10 row-images">
       {people.map((testimonial) => (
         <div
           className="-mr-4 relative group"

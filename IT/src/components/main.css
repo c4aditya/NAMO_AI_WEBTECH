@@ -1695,6 +1695,23 @@
         margin-top: 20px;
         width: 100%;
     }
+
+    /* service page css  */
+    .heading-our-service{
+        width: 60%;
+    
+    }
+    .heading-our-service h1{
+        font-size: 1.6rem;
+    }
+    .title-our-service .heading-title{
+        font-size: 1.3rem;
+    }
+
+    .headind-technology{
+        font-size: 1.6rem;
+    }
+    
 }
 
 
@@ -2206,6 +2223,10 @@
     }
 
 
+    .customer-logos{
+        margin: auto;
+    }
+
 
     /* contact us section  */
 
@@ -2268,6 +2289,77 @@
         display: block;
     }
 
+     /* 
+    ---------------------
+    Servives page css
+    ---------------------
+    */
+
+    
+
+    .content-section-aboutus{
+        text-align: center;
+        
+    }
+
+    .image-section-aboutus{
+        margin-top: 30px;
+    }
+
+    .heading-our-service{
+        width: 90%;
+        
+    }
+
+    .heading-our-service h1{
+        font-size: 1.3rem;
+        font-weight: 700;
+    }
+    .sub-card-out-service{
+       
+        display: flex;
+        flex-direction: column;
+    }
+    .title-our-service .heading-title{
+        font-size: 1.2rem;
+        
+    }
+
+    .content-our-service{
+       
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .image-service{
+        width: 100%;
+    }
+    .title-our-service .heading-title{
+        text-align: left;
+    }
+    .title-our-service{
+        text-align: center;
+        margin-top: 20px;
+        width: 100%;
+    }
+    .para-our-service{
+        width: 100%;
+        margin: auto;
+        font-size: 1.3rem;
+    }
+    .arrow-main {
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .headind-technology {
+        font-size: 1.6rem;
+    }
+   .row-images{
+    
+     display: flex;
+     flex-direction: column;
+   }
 }
 
 
@@ -2592,6 +2684,10 @@
         width: 100%;
     }
 
+    .content-our-service{
+        margin-top: 30px;
+    }
+
 
 
 }
@@ -2912,6 +3008,8 @@
     .btn-indus {
         width: 100%;
     }
+
+   
 
 
 
